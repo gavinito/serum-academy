@@ -20,7 +20,7 @@ weight: 3
 
 - Coin98: [https://coin98.app](https://coin98.app)
 
-- Santosha Exchange: [https://exchange.santosha.digital/#/](https://exchange.santosha.digital/#/)
+- Santosha Exchange: [https://exchange.santosha.digital](https://exchange.santosha.digital)
 
 - Pangea DEX [https://pangeadex.com/](https://pangeadex.com/)
 
