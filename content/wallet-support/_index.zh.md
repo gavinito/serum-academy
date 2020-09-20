@@ -6,22 +6,22 @@ weight: 5
 ### [FTX](https://ftx.com)
 
 - SOL
-- SPL类型的通证
-- 支持ERC20和SPL类型的通证，两者间可进行兑换
+- SPL 类型的通证
+- 支持 ERC20 和 SPL 类型的通证，两者间可进行兑换
 
 网址: [https://ftx.com](https://ftx.com)
 
 ### [币安](https://binance.com)
 
 - SOL
-- SRM **(仅支持ERC20)**
+- SRM **(仅支持 ERC20)**
 
 网址: [https://binance.com](https://binance.com)
 
 ### [BitMax](https://bitmax.io)
 
 - SOL
-- SRM **(仅支持ERC20)**
+- SRM **(仅支持 ERC20)**
 
 网址: [https://bitmax.io](https://bitmax.io)
 
@@ -34,8 +34,8 @@ weight: 5
 ### [Coin98](https://coin98.app)
 
 - SOL
-- SPL类型的通证
-- 支持直接使用Coin98 app进行Serum交易
+- SPL 类型的通证
+- 支持直接使用 Coin98 app 进行 Serum 交易
 
 网址: [https://coin98.app](https://coin98.app)
 
@@ -48,22 +48,22 @@ weight: 5
 ### [Sollet.io](https://www.sollet.io)
 
 - SOL
-- SPL类型的通证
-- 支持Serum DEX
-- 支持ERC20和SPL类型的通证，两者间可进行兑换
+- SPL 类型的通证
+- 支持 Serum DEX
+- 支持 ERC20 和 SPL 类型的通证，两者间可进行兑换
 
 网址: [https://www.sollet.io](https://www.sollet.io)
 
 ### [麦子钱包](https://mathwallet.org)
 
 - SOL
-- SPL类型的通证
+- SPL 类型的通证
 
 网址: [https://mathwallet.org](https://mathwallet.org)
 
 ### [Solflare](https://solflare.com)
 
 - SOL
-- SPL类型的通证
+- SPL 类型的通证
 
 网址: [https://solflare.com](https://solflare.com)

@@ -138,6 +138,16 @@
   
   <url>
     <loc>/en/wallet-support/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/wallet-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/wallet-support/"
+                />
   </url>
   
   <url>
