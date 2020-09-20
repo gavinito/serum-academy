@@ -20,4 +20,8 @@ weight: 3
 
 - Coin98: [https://coin98.app](https://coin98.app)
 
+- Santosha Exchange: [https://exchange.santosha.digital/#/](https://exchange.santosha.digital/#/)
+
+- Pangea DEX [https://pangeadex.com/](https://pangeadex.com/)
+
 Serum DEX 的 GUI 原始码是公开的，并存放于 [GitHub](https://github.com/project-serum/serum-dex-ui)。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。

@@ -24,6 +24,10 @@ Below is a list of Serum DEXes:
 
 - Tech.Ed Training: [https://serum.techedtraining.com/](https://serum.techedtraining.com/)
 
+- Santosha Exchange: [https://exchange.santosha.digital/#/](https://exchange.santosha.digital/#/)
+
+- Pangea DEX [https://pangeadex.com/](https://pangeadex.com/)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
