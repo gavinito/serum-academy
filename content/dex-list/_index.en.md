@@ -28,6 +28,8 @@ Below is a list of Serum DEXes:
 
 - Pangea DEX [https://pangeadex.com/](https://pangeadex.com/)
 
+- SerumDex.Exchange: [https://serumdex.exchange](https://serumdex.exchange)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
