@@ -30,6 +30,8 @@ Below is a list of Serum DEXes:
 
 - SerumDex.Exchange: [https://serumdex.exchange](https://serumdex.exchange)
 
+- SolFlare DEX: [https://dex.solflare.com](https://dex.solflare.com)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
