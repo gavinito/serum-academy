@@ -32,6 +32,8 @@ Below is a list of Serum DEXes:
 
 - SolFlare DEX: [https://dex.solflare.com](https://dex.solflare.com)
 
+- Advance Finance DEX: [https://advance.finance](https://advance.finance)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
