@@ -2,32 +2,33 @@
 :root{
     
     --MAIN-TEXT-color:#323232; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color:#599a3e; /* Color of links */
-    --MAIN-LINK-HOVER-color:#3f6d2c; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #599a3e; /* color of anchors on titles */
+    --MAIN-TITLES-TEXT-color: #323232; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color: #07ABC6; /* Color of links */
+    --MAIN-LINK-HOVER-color:#2b5c69; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #323232; /* color of anchors on titles */
 
-    --MENU-HEADER-BG-color:#74b559; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#9cd484; /*Color of menu header border */ 
+    --MENU-HEADER-BG-color:#f5f5f5; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color:#f5f5f5; /*Color of menu header border */ 
     
-    --MENU-SEARCH-BG-color:#599a3e; /* Search field background color (by default borders + icons) */
-    --MENU-SEARCH-BOX-color: #84c767; /* Override search field border color */
-    --MENU-SEARCH-BOX-ICONS-color: #c7f7c4; /* Override search field icons color */
+    --MENU-SEARCH-BG-color:#F8F9FA; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BOX-color: #919191; /* Override search field border color */
+    --MENU-SEARCH-BOX-ICONS-color: #919191; /* Override search field icons color */
 
-    --MENU-SECTIONS-ACTIVE-BG-color:#1b211c; /* Background color of the active section and its childs */
-    --MENU-SECTIONS-BG-color:#222723; /* Background color of other sections */
-    --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
-    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
-    --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+    --MENU-SECTIONS-ACTIVE-BG-color:#f5f5f5; /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color:#f5f5f5; /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #323232; /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #323232;  /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #07ABC6; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #f5f5f5; /* Color of background for the active category (only) */
 
-    --MENU-VISITED-color: #599a3e; /* Color of 'page visited' icons in menu */
-    --MENU-SECTION-HR-color: #18211c; /* Color of <hr> separator in menu */
+    --MENU-VISITED-color: #07ABC6; /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #f5f5f5; /* Color of <hr> separator in menu */
     
 }
 
 body {
     color: var(--MAIN-TEXT-color) !important;
+    font-family: "Helvetica", "Geneva", "Arial", sans-serif;
 }
 
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
@@ -102,3 +103,23 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+#header-wrapper {
+    text-align: left;
+}
+
+#header-wrapper #logo {
+    margin: 4vh 0;
+}
+
+#body-inner h1 {
+    text-align: left !important;
+}
+
+#body-inner h3 {
+    font-weight: 200;
+}
+
+#sidebar #shortcuts h3 {
+    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 1.3rem;
+}
