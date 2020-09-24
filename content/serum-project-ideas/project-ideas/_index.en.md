@@ -233,6 +233,10 @@ If you build it to the below specs, it will receive a predetermined bounty inste
 
 Badges to represent participation in various aspects of Serum; e.g. liquidity providing, node operating.
 
+### SPL Name Service
+
+Create a table where the mint of a token can submit a name for their token. Also create a table where a token controls governance of the naming. If you create this, EcoSerum will support the token's adoption; you get 20% of them.
+
 ### GUI & Other Ideas
 
 Below is a list of GUI & other features that could be developed:
