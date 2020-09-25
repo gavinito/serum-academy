@@ -34,6 +34,8 @@ Below is a list of Serum DEXes:
 
 - Advance Finance DEX: [https://advance.finance](https://advance.finance)
 
+- Viralic DEX: [https://dex.viralic.io](https://dex.viralic.io)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
