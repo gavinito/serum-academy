@@ -38,6 +38,8 @@ Below is a list of Serum DEXes:
 
 - Illuminati Finance: [http://illuminati.finance/serum](http://illuminati.finance/serum)
 
+- Ourord DEX: [https://dex.ourord.com](https://dex.ourord.com)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
