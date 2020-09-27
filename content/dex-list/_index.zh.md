@@ -30,4 +30,6 @@ weight: 3
 
 - Advance Finance DEX: [https://advance.finance](https://advance.finance)
 
+- Illuminati Finance: [http://illuminati.finance/serum](http://illuminati.finance/serum)
+
 Serum DEX 的 GUI 原始码是公开的，并存放于 [GitHub](https://github.com/project-serum/serum-dex-ui)。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。

@@ -36,6 +36,8 @@ Below is a list of Serum DEXes:
 
 - Viralic DEX: [https://dex.viralic.io](https://dex.viralic.io)
 
+- Illuminati Finance: [http://illuminati.finance/serum](http://illuminati.finance/serum)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
