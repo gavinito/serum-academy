@@ -88,7 +88,7 @@
 	"title": "Add a market on Serum",
 	"tags": [],
 	"description": "",
-	"content": "Add a market on Serum If you want to add a new market to Serum follow the steps below:\n  The first step is to use Sollet.io to convert between ERC20 and SPL\n  Create a new market see Github\n  Run cranks see Github\n  Add the market to your GUI\n  After creating a new market you will have to think about liquidity on this market\n  "
+	"content": "Add a market on Serum   Get your SPL tokens; you can turn ERC20 \u0026lt;\u0026gt; SPL at Sollet.io\n  Go to https://dex.projectserum.com/#/list-new-market to list the market.\n  The Token Address or Mint Address is the contract address of a token i.e the token identifier, do not send tokens to this address.\n Enter parameters and Submit. Check Sollet.io for messages   Copy the New market address\n  If anyone wants to trade on the market:\n    Click the + on the homepage of the DEX\n  Enter the New market address\n  Click Add\n  The Nodes are handling the details (cranking, etc.). You will only have to bring your own liquidity.  So anyone can now list any SPL or (wrapper on) ERC20 token on Serum\n"
 },
 {
 	"uri": "/en/developer-resources/",

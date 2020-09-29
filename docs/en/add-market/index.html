@@ -22,21 +22,21 @@
     <title>Add a market on Serum :: Serum Academy</title>
 
     
-    <link href="../../css/nucleus.css?1601347609" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1601347609" rel="stylesheet">
-    <link href="../../css/hybrid.css?1601347609" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1601347609" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1601347609" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1601347609" rel="stylesheet">
-    <link href="../../css/atom-one-dark-reasonable.css?1601347609" rel="stylesheet">
-    <link href="../../css/theme.css?1601347609" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1601347609" rel="stylesheet">
+    <link href="../../css/nucleus.css?1601362441" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1601362441" rel="stylesheet">
+    <link href="../../css/hybrid.css?1601362441" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1601362441" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1601362441" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1601362441" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1601362441" rel="stylesheet">
+    <link href="../../css/theme.css?1601362441" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1601362441" rel="stylesheet">
     
-    <link href="../../css/theme-mine.css?1601347609" rel="stylesheet">
+    <link href="../../css/theme-mine.css?1601362441" rel="stylesheet">
     
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1601347609"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1601362441"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65,14 +65,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1601347609"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1601347609"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1601362441"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1601362441"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1601347609"></script>
+<script type="text/javascript" src="../../js/search.js?1601362441"></script>
 
     
   </div>
@@ -661,24 +661,48 @@
 
 
 	<h2 id="add-a-market-on-serum">Add a market on Serum</h2>
-<p>If you want to add a new market to Serum follow the steps below:</p>
+<ol>
+<li>
+<p>Get your SPL tokens; you can turn ERC20 &lt;&gt; SPL at <a href="http://sollet.io">Sollet.io</a></p>
+</li>
+<li>
+<p>Go to <a href="https://dex.projectserum.com/#/list-new-market">https://dex.projectserum.com/#/list-new-market</a> to list the market.</p>
+</li>
+</ol>
+
+<div class="notices tip" ><p>The Token Address or <strong>Mint Address</strong> is the <strong>contract address</strong> of a token i.e the <strong>token identifier, do not send tokens to this address</strong>.</p>
+</div>
+
+<p><img src="../../images/articles/serum-dex/add-market/add-market-1.jpeg?classes=shadow&amp;width=50pc" alt="serum-dex"></p>
+<ol start="3">
+<li>Enter parameters and Submit. Check <a href="http://sollet.io">Sollet.io</a> for messages</li>
+</ol>
+<p><img src="../../images/articles/serum-dex/add-market/add-market-2.jpeg?classes=shadow&amp;width=50pc" alt="serum-dex"></p>
+<ol start="4">
+<li>
+<p>Copy the New market address</p>
+</li>
+<li>
+<p>If anyone wants to trade on the market:</p>
+</li>
+</ol>
 <ul>
 <li>
-<p>The first step is to use <a href="https://sollet.io">Sollet.io</a> to convert between ERC20 and SPL</p>
+<p>Click the <strong>+</strong> on the homepage of the <a href="../../en/dex-list">DEX</a></p>
 </li>
 <li>
-<p>Create a new market see <a href="https://github.com/project-serum/serum-dex/blob/master/dex/src/instruction.rs">Github</a></p>
+<p>Enter the New market address</p>
 </li>
 <li>
-<p>Run cranks see <a href="https://github.com/project-serum/serum-dex/blob/master/crank/src/main.rs#L297">Github</a></p>
-</li>
-<li>
-<p>Add the market to <a href="https://github.com/project-serum/serum-dex-ui">your GUI</a></p>
-</li>
-<li>
-<p>After creating a new market you will have to think about liquidity on this market</p>
+<p>Click Add</p>
 </li>
 </ul>
+<p><img src="../../images/articles/serum-dex/add-market/add-market-3.png?classes=shadow&amp;width=50pc" alt="serum-dex"></p>
+<p><img src="../../images/articles/serum-dex/add-market/add-market-4.png?classes=shadow&amp;width=50pc" alt="serum-dex"></p>
+<ol start="5">
+<li>The Nodes are handling the details (cranking, etc.). You will only have to bring your own liquidity.</li>
+</ol>
+<p>So anyone can now list <em>any</em> SPL or (wrapper on) ERC20 token on Serum</p>
 
 
 
@@ -971,19 +995,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1601347609"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1601347609"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1601347609"></script>
-    <script src="../../js/jquery.sticky.js?1601347609"></script>
-    <script src="../../js/featherlight.min.js?1601347609"></script>
-    <script src="../../js/highlight.pack.js?1601347609"></script>
+    <script src="../../js/clipboard.min.js?1601362441"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1601362441"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1601362441"></script>
+    <script src="../../js/jquery.sticky.js?1601362441"></script>
+    <script src="../../js/featherlight.min.js?1601362441"></script>
+    <script src="../../js/highlight.pack.js?1601362441"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom-3.6.0.js?1601347609"></script>
-    <script src="../../js/learn.js?1601347609"></script>
-    <script src="../../js/hugo-learn.js?1601347609"></script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1601362441"></script>
+    <script src="../../js/learn.js?1601362441"></script>
+    <script src="../../js/hugo-learn.js?1601362441"></script>
 
-    <link href="../../mermaid/mermaid.css?1601347609" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.js?1601347609"></script>
+    <link href="../../mermaid/mermaid.css?1601362441" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1601362441"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
