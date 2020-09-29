@@ -42,6 +42,8 @@ Below is a list of Serum DEXes:
 
 - BallsDeep DEX: [https://serumdex.ballsdeep.me](https://serumdex.ballsdeep.me)
 
+- Cryptocurrencies.Ai DEX: [https://dex.cryptocurrencies.ai/](https://dex.cryptocurrencies.ai/)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
