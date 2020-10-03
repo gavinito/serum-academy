@@ -12,6 +12,8 @@ Below is a list of Serum DEXes:
 
 - Bonfida Serum DEX: [https://bonfida.com/dex](https://bonfida.com/dex)
 
+- Cryptocurrencies.Ai DEX: [https://dex.cryptocurrencies.ai/](https://dex.cryptocurrencies.ai/)
+
 - Serum Today: [https://serum.today](https://serum.today)
 
 - Serum Pro: [https://serumpro.org](https://serumpro.org)
@@ -41,8 +43,6 @@ Below is a list of Serum DEXes:
 - Ourord DEX: [https://dex.ourord.com](https://dex.ourord.com)
 
 - BallsDeep DEX: [https://serumdex.ballsdeep.me](https://serumdex.ballsdeep.me)
-
-- Cryptocurrencies.Ai DEX: [https://dex.cryptocurrencies.ai/](https://dex.cryptocurrencies.ai/)
 
 ### Mobile
 
