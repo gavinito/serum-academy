@@ -82,3 +82,14 @@ weight = 30
 name = "<i class='fab fa-fw fa-twitter'></i> Project Serum Twitter"
 url = "https://twitter.com/projectserum"
 weight = 30
+
+[server]
+[[server.headers]]
+for = "*"
+
+[server.headers.values]
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Content-Security-Policy = "script-src localhost:1313"
