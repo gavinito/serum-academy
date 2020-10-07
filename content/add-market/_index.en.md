@@ -37,3 +37,7 @@ The Token Address or **Mint Address** is the **contract address** of a token i.e
 5. The Nodes are handling the details (cranking, etc.). You will only have to bring your own liquidity.
 
 So anyone can now list _any_ SPL or (wrapper on) ERC20 token on Serum
+
+{{% notice warning %}}
+Creating a market can cost up to 10-15 SOL
+{{% /notice %}}
