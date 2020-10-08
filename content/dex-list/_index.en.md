@@ -44,6 +44,8 @@ Below is a list of Serum DEXes:
 
 - BallsDeep DEX: [https://serumdex.ballsdeep.me](https://serumdex.ballsdeep.me)
 
+- TradeOnSerum DEX: [https://www.tradeonserum.com/](https://www.tradeonserum.com/)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
@@ -54,3 +56,7 @@ Want to help support the Serum ecosystem? Host a GUI and get a fraction of the f
 
 - An open source GUI can be found here: [https://github.com/project-serum/serum-dex-ui](https://github.com/project-serum/serum-dex-ui)
 - Find more about staking and voting here: [https://projectserum.com/staking-voting](https://projectserum.com/staking-voting)
+
+{{% notice warning %}}
+None of the DEXes mentioned above are vetted by Project Serum or Serum Academy. Use at your own risk.
+{{% /notice %}}

@@ -46,7 +46,7 @@
 	"title": "DEX 网址名单",
 	"tags": [],
 	"description": "",
-	"content": "DEX 网址名单 以下是接入 Serum DEX 的网址：\n  Bonfida Serum DEX: https://bonfida.com/dex\n  Cryptocurrencies.Ai DEX: https://dex.cryptocurrencies.ai/\n  Serum Today: https://serum.today\n  Serum Pro: https://serumpro.org\n  Serum Folkvang.io: https://serum-mirror.folkvang.io\n  Project Serum DEX: https://dex.projectserum.com\n  Coin98: https://coin98.app\n  Santosha Exchange: https://exchange.santosha.digital\n  Pangea DEX: https://pangeadex.com/\n  SerumDex.Exchange: https://serumdex.exchange\n  SolFlare DEX: https://dex.solflare.com\n  Advance Finance DEX: https://advance.finance\n  Illuminati Finance: http://illuminati.finance/serum\n  Ourord DEX: https://dex.ourord.com\n  BallsDeep DEX: https://serumdex.ballsdeep.me\n  Serum DEX 的 GUI 原始码是公开的，并存放于 GitHub。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。\n"
+	"content": "DEX 网址名单 以下是接入 Serum DEX 的网址：\n  Bonfida Serum DEX: https://bonfida.com/dex\n  Cryptocurrencies.Ai DEX: https://dex.cryptocurrencies.ai/\n  Serum Today: https://serum.today\n  Serum Pro: https://serumpro.org\n  Serum Folkvang.io: https://serum-mirror.folkvang.io\n  Project Serum DEX: https://dex.projectserum.com\n  Coin98: https://coin98.app\n  Santosha Exchange: https://exchange.santosha.digital\n  Pangea DEX: https://pangeadex.com/\n  SerumDex.Exchange: https://serumdex.exchange\n  SolFlare DEX: https://dex.solflare.com\n  Advance Finance DEX: https://advance.finance\n  Illuminati Finance: http://illuminati.finance/serum\n  Ourord DEX: https://dex.ourord.com\n  BallsDeep DEX: https://serumdex.ballsdeep.me\n  TradeOnSerum DEX: https://www.tradeonserum.com/\n  Serum DEX 的 GUI 原始码是公开的，并存放于 GitHub。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。\n"
 },
 {
 	"uri": "/zh/serum-dex/trade/",
