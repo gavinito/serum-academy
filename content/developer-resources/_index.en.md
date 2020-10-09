@@ -22,6 +22,9 @@ Serum is developed and maintained by an open-source community. Below is a non-ex
 - [Solana Hello World – Github](https://github.com/solana-labs/example-helloworld)
 - [Solana Technical Documentation](https://docs.solana.com/)
 - [Solana Discord](https://solana.com/discord)
+- Solana Wormhole: bidirectional, trustless ERC-20 ⇄ SPL token bridge between Ethereum and Solana.
+  - [Github repository](https://github.com/certusone/wormhole)
+  - [Medium article](https://medium.com/certus-one/introducing-the-wormhole-bridge-24911b7335f7)
 
 ## Wallets
 
