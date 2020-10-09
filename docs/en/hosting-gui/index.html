@@ -30,7 +30,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
 
-    <title>Tags :: Serum Academy</title>
+    <title>How to host a GUI :: Serum Academy</title>
 
     
     <link href="../../css/nucleus.css?1602223763" rel="stylesheet">
@@ -57,7 +57,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/en/tags/">
+  <body class="" data-url="/en/hosting-gui/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -504,8 +504,8 @@
   
     
     <li data-nav-id="/en/hosting-gui/" title="How to host a GUI" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="../../en/hosting-gui/">
@@ -572,22 +572,10 @@
                   
                     
                     
-                      <option id="en" value="/en/tags/" selected>English</option>
+                      <option id="en" value="/en/hosting-gui/" selected>English</option>
                     
                   
               
-                  
-              
-          
-              
-              
-                  
-              
-                  
-                    
-                    
-                      <option id="zh" value="/zh/tags/">Chinese</option>
-                    
                   
               
           
@@ -639,6 +627,17 @@
               <div>
                 <div id="top-bar">
                 
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/dr497/serum-academy/tree/master/content/hosting-gui/_index.en.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
                 
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <span id="sidebar-toggle-span">
@@ -659,7 +658,7 @@
             
           
           
-            <a href='../../en/'>Home</a> > Tags
+            <a href='../../en/'>Home</a> > How to host a GUI
           
         
           
@@ -670,7 +669,24 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#create-your-own-gui">Create your own GUI</a>
+      <ul>
+        <li><a href="#serum-gui">Serum GUI</a></li>
+        <li><a href="#customizing">Customizing</a></li>
+        <li><a href="#collecting-fees">Collecting fees</a></li>
+        <li><a href="#setting-your-own-domain-name">Setting your own domain name</a></li>
+      </ul>
+    </li>
+    <li><a href="#hosting">Hosting</a>
+      <ul>
+        <li><a href="#github-pages">Github Pages</a></li>
+        <li><a href="#hosting-on-your-own-server">Hosting on your own server</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -686,7 +702,7 @@
           
             <h1>
               
-              Tags
+              How to host a GUI
             </h1>
           
 
@@ -694,11 +710,35 @@
 
 
 
+	<h2 id="create-your-own-gui">Create your own GUI</h2>
+<h3 id="serum-gui">Serum GUI</h3>
+<p>You will find the official repository of Serum DEX UI here: <a href="https://github.com/project-serum/serum-dex-ui">https://github.com/project-serum/serum-dex-ui</a>. This provides you with everything you need to start your own Serum GUI.</p>
+<p>Once you have forked the repository, you can run a local environment by running:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn start
+</code></pre></div><h3 id="customizing">Customizing</h3>
+<p>The Serum DEX UI uses <a href="https://reactjs.org">React</a> and <a href="https://ant.design">Ant Desing</a> UI library. To learn how to customize it, refer to their <a href="https://ant.design/docs/react/customize-theme">official guide</a></p>
+<h3 id="collecting-fees">Collecting fees</h3>
+<p>Serum allows you to collect 20% of the fees for the orders made on your GUI. In order to collect the fees, you need to modify the <code>.env</code> file that looks like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">REACT_APP_USDT_REFERRAL_FEES_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
+REACT_APP_USDC_REFERRAL_FEES_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
+</code></pre></div><p>To collect fees enter your USDT <strong>SPL</strong> and USD <strong>SPL</strong> addresses, for example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">REACT_APP_USDT_REFERRAL_FEES_ADDRESS<span style="color:#f92672">=</span>9EscMUvizE1ThHWuWQgs8siDz4r54yVxhZDub3ihWQAX
+REACT_APP_USDC_REFERRAL_FEES_ADDRESS<span style="color:#f92672">=</span>9GiKG99ngtKzhQcNXtHokuhx5gk7ftKfrmKtrybHFNa1
+</code></pre></div><h3 id="setting-your-own-domain-name">Setting your own domain name</h3>
+<p>The <code>package.json</code> file contains a field called <code>homepage</code>, change it to your name domain.</p>
+<h2 id="hosting">Hosting</h2>
+<p>There are different solutions to host your GUI. You can host it for free on Github Pages or host it on your own server.</p>
+<h3 id="github-pages">Github Pages</h3>
+<p>This is the easiest way of hosting and deploying a GUI, you simply have to use the following command to deploy your GUI</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn deploy
+</code></pre></div><p>The GUI will then be hosted on the <code>gh-pages</code> branch of your Github repository.</p>
+<h3 id="hosting-on-your-own-server">Hosting on your own server</h3>
+<p>Alternatively, you can host your GUI on your own server and use Nginx for instance to serve it. To create the production build run</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn build
+</code></pre></div><p>The build will be created in the <code>build</code> folder of the working directory.</p>
 
 
-<ul>
-	
-</ul>
+
 
 
 <footer class=" footline" >
@@ -967,6 +1007,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -986,6 +1027,8 @@
 
 	 
 	 
+		
+			<a class="nav nav-prev" href="../../en/developer-resources/" title="Developer Resources"> <i class="fa fa-chevron-left"></i></a>
 		
 		
 			<a class="nav nav-next" href="../../en/serum-dex/" title="Trade on Serum DEX" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
