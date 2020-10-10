@@ -45,5 +45,7 @@ Serum is developed and maintained by an open-source community. Below is a non-ex
 - [A general preview](https://docs.google.com/document/d/1lmMZRKkxMFOtGOEZOFEKYL7syqv-4QT87F0o55fc35Y/edit) of Pools and work in progress source code [Token Pool code - Github](https://github.com/project-serum/serum-dex/tree/pool-wip)
 - Example of a mainnet market: https://explorer.solana.com/address/8AcVjMG2LTbpkjNoyq8RwysokqZunkjy3d5JDzxC6BJa
 - Example of a mainnet program: https://explorer.solana.com/address/4ckmDgGdxQoPDLUkDT3vHgSAkzA3QRdNq5ywwY4sUSJn
-- [Bonfida](https://bonfida.com/) REST API to get data from Serum: https://bonfida.com/blog/articles/serum-api
+- [Bonfida](https://bonfida.com/):
+  - REST API to get data from Serum: https://bonfida.com/blog/articles/serum-api
+  - [Github](https://github.com/dr497)
 - [PySerum - GitHub](https://github.com/serum-community/pyserum): Python client library for interacting with the Project Serum DEX.
