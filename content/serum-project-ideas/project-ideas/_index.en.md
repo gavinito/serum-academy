@@ -186,6 +186,15 @@ If you are an exchange and want to add Solana, SRM and SPL support please reach 
 
 Native MetaMask integration for Solana, SRM and SPL tokens. See [this introduction](https://medium.com/metamask/introducing-the-next-evolution-of-the-web3-wallet-4abdf801a4ee) to Web3 Plugins for more details
 
+### Security Audits
+
+Security audits of the following repositories:
+
+- https://github.com/serum-foundation/spl-token-wallet
+- https://github.com/project-serum/sol-wallet-adapter
+- https://github.com/project-serum/serum-dex-ui
+- https://github.com/project-serum/serum-dex
+
 ### GUI Improvements
 
 Below is a list of GUI improvements that could be developed:
