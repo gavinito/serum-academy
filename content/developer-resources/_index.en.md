@@ -26,6 +26,7 @@ Serum is developed and maintained by an open-source community. Below is a non-ex
   - [Github repository](https://github.com/certusone/wormhole)
   - [Medium article](https://medium.com/certus-one/introducing-the-wormhole-bridge-24911b7335f7)
 - RFC for node/staking code: [Github](https://github.com/project-serum/rfcs/blob/master/text/0001-registry.md) - Work in progress
+- NFT example code: [Github](https://spl.solana.com/token#example-create-a-non-fungible-token)
 
 ## Wallets
 
