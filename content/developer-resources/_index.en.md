@@ -27,6 +27,9 @@ Serum is developed and maintained by an open-source community. Below is a non-ex
   - [Medium article](https://medium.com/certus-one/introducing-the-wormhole-bridge-24911b7335f7)
 - RFC for node/staking code: [Github](https://github.com/project-serum/rfcs/blob/master/text/0001-registry.md) - Work in progress
 - NFT example code: [Github](https://spl.solana.com/token#example-create-a-non-fungible-token)
+- [SolFlare](https://projectserum.com/solflare.com), and a [guide](https://docs.solana.com/wallet-guide/ledger-live) on how to use a hardware Ledger with it.
+- Proof of Concept messaging app: [Github](https://github.com/kemargrant/soltalk)
+- Work-in-progress AMM: [Github](https://github.com/solana-labs/solana-program-library/tree/master/token-swap)
 
 ## Wallets
 
