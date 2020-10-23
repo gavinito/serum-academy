@@ -46,6 +46,8 @@ Below is a list of Serum DEXes:
 
 - TradeOnSerum DEX: [https://www.tradeonserum.com/](https://www.tradeonserum.com/)
 
+- YMAX Finance DEX: [https://ymax.finance/](https://ymax.finance/)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)

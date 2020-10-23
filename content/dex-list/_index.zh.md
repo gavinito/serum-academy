@@ -40,4 +40,6 @@ weight: 3
 
 - TradeOnSerum DEX: [https://www.tradeonserum.com/](https://www.tradeonserum.com/)
 
+- YMAX Finance DEX: [https://ymax.finance/](https://ymax.finance/)
+
 Serum DEX 的 GUI 原始码是公开的，并存放于 [GitHub](https://github.com/project-serum/serum-dex-ui)。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。
