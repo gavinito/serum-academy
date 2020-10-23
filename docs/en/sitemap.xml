@@ -91,6 +91,10 @@
   </url>
   
   <url>
+    <loc>/en/build-on-serum/</loc>
+  </url>
+  
+  <url>
     <loc>/en/dex-list/</loc>
     <xhtml:link
                 rel="alternate"
