@@ -54,6 +54,15 @@ Website: [https://www.ledger.com](https://www.ledger.com)
 
 Website: [https://www.sollet.io](https://www.sollet.io)
 
+### [Bonfida Wallet](https://www.bonfida.com/wallet)
+
+- SOL
+- SPL tokens
+- Serum DEX support
+- ERC20 <> SPL conversions
+
+Website: [https://www.bonfida.com/wallet](https://www.bonfida.com/wallet)
+
 ### [Math Wallet](https://mathwallet.org)
 
 - SOL
