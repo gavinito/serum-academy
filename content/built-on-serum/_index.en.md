@@ -4,7 +4,7 @@ title: Built on Serum
 weight: 3
 ---
 
-Below is a list of projects built on Serum:
+Below is a list of projects built on Serum and Solana:
 
 ## Blockchain
 
