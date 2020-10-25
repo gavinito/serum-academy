@@ -33,21 +33,21 @@
     <title>Developer Resources :: Serum Academy</title>
 
     
-    <link href="../../css/nucleus.css?1603627252" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1603627252" rel="stylesheet">
-    <link href="../../css/hybrid.css?1603627252" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1603627252" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1603627252" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1603627252" rel="stylesheet">
-    <link href="../../css/atom-one-dark-reasonable.css?1603627252" rel="stylesheet">
-    <link href="../../css/theme.css?1603627252" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1603627252" rel="stylesheet">
+    <link href="../../css/nucleus.css?1603627804" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1603627804" rel="stylesheet">
+    <link href="../../css/hybrid.css?1603627804" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1603627804" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1603627804" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1603627804" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1603627804" rel="stylesheet">
+    <link href="../../css/theme.css?1603627804" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1603627804" rel="stylesheet">
     
-    <link href="../../css/theme-mine.css?1603627252" rel="stylesheet">
+    <link href="../../css/theme-mine.css?1603627804" rel="stylesheet">
     
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1603627252"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1603627804"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -76,14 +76,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1603627252"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1603627252"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1603627804"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1603627804"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1603627252"></script>
+<script type="text/javascript" src="../../js/search.js?1603627804"></script>
 
     
   </div>
@@ -669,10 +669,11 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#popular-token-contracts">Popular Token Contracts</a></li>
-    <li><a href="#blockchain">Blockchain</a></li>
-    <li><a href="#wallets">Wallets</a></li>
-    <li><a href="#dex-integration">DEX Integration</a></li>
+    <li>
+      <ul>
+        <li><a href="#redirecting-to-awesome-serum-github-repository">Redirecting to Awesome Serum Github repository</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -698,65 +699,13 @@
 
 
 
-	<p>Serum is developed and maintained by an open-source community. Below is a non-exhaustive list of relevant projects, tools, and resources within the ecosystem.</p>
-<h2 id="popular-token-contracts">Popular Token Contracts</h2>
-<ul>
-<li><a href="https://explorer.solana.com/address/SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt">Serum (SRM) SPL</a></li>
-<li><a href="https://etherscan.io/token/0x476c5e26a75bd202a9683ffd34359c0cc15be0ff">Serum (SRM) ERC20</a></li>
-<li><a href="https://explorer.solana.com/address/MSRMcoVyrFxnSgo5uXwone5SKcGhT1KEJMFEkMEWf9L">MegaSerum (MSRM) SPL</a></li>
-<li><a href="https://etherscan.io/token/0x1320c8c64b9f2eAa851F70702e6C9FC1EE4E8Ce4">MegaSerum (MSRM) ERC20</a></li>
-</ul>
-<h2 id="blockchain">Blockchain</h2>
-<ul>
-<li><a href="https://github.com/solana-labs/solana">Solana Blockchain – Github</a></li>
-<li><a href="https://github.com/solana-labs/solana-program-library">Solana Program Library – Github</a></li>
-<li><a href="https://github.com/solana-labs/solana-web3.js">Solana Web3 SDK – Github</a></li>
-<li><a href="https://github.com/solana-labs/solana/tree/master/explorer">Solana Explorer – Github</a></li>
-<li><a href="https://github.com/solana-labs/example-helloworld">Solana Hello World – Github</a></li>
-<li><a href="https://docs.solana.com/">Solana Technical Documentation</a></li>
-<li><a href="https://solana.com/discord">Solana Discord</a></li>
-<li>Solana Wormhole: bidirectional, trustless ERC-20 ⇄ SPL token bridge between Ethereum and Solana.
-<ul>
-<li><a href="https://github.com/certusone/wormhole">Github repository</a></li>
-<li><a href="https://medium.com/certus-one/introducing-the-wormhole-bridge-24911b7335f7">Medium article</a></li>
-</ul>
-</li>
-<li>RFC for node/staking code: <a href="https://github.com/project-serum/rfcs/blob/master/text/0001-registry.md">Github</a> - Work in progress</li>
-<li>NFT example code: <a href="https://spl.solana.com/token#example-create-a-non-fungible-token">Github</a></li>
-<li><a href="https://projectserum.com/solflare.com">SolFlare</a>, and a <a href="https://docs.solana.com/wallet-guide/ledger-live">guide</a> on how to use a hardware Ledger with it.</li>
-<li>Proof of Concept messaging app: <a href="https://github.com/kemargrant/soltalk">Github</a></li>
-<li>Work-in-progress AMM: <a href="https://github.com/solana-labs/solana-program-library/tree/master/token-swap">Github</a></li>
-</ul>
-<h2 id="wallets">Wallets</h2>
-<ul>
-<li><a href="https://github.com/serum-foundation/spl-token-wallet">SPL Token Wallet – Github</a></li>
-<li><a href="https://sollet.io/">Sollet.io</a>, powered by the source above</li>
-<li><a href="https://github.com/project-serum/sol-wallet-adapter">SOL Wallet Adapter - Github</a>, a library to allow Solana dApps to use third-party wallets to sign transactions.</li>
-</ul>
-<h2 id="dex-integration">DEX Integration</h2>
-<ul>
-<li><a href="https://docs.google.com/document/d/1isGJES4jzQutI0GtQGuqtrBUqeHxl_xJNXdtOv4SdII/edit?usp=sharing">A technical introduction to the Serum DEX</a></li>
-<li><a href="https://github.com/project-serum/serum-dex">DEX source code – Github</a></li>
-<li><a href="https://github.com/project-serum/serum-dex/blob/master/crank/src/main.rs#L297">DEX crank source code – Github</a></li>
-<li><a href="https://github.com/project-serum/serum-js">Serum.JS – Github</a>, work-in-progress client-side javascript resources to connect to the DEX</li>
-<li><a href="https://github.com/project-serum/serum-dex-ui">Serum DEX UI – Github</a>, an implementation of a UI for the Serum DEX</li>
-<li>Testnet deployment of prototype DEX
-<ul>
-<li><a href="https://explorer.solana.com/address/9JipvuvjcirpYf8mzYQtozXeYtQLWY67LaZCiANSMNgs">DEX Program</a></li>
-<li><a href="https://explorer.solana.com/address/2tJ2LVReFCZF81Ej4MAQHEr1kRSmk6QQ5XSnzjC9KJNj">DEX Market</a></li>
-</ul>
-</li>
-<li><a href="https://docs.google.com/document/d/1lmMZRKkxMFOtGOEZOFEKYL7syqv-4QT87F0o55fc35Y/edit">A general preview</a> of Pools and work in progress source code <a href="https://github.com/project-serum/serum-dex/tree/pool-wip/pool">Token Pool code - Github</a></li>
-<li>Example of a mainnet market: <a href="https://explorer.solana.com/address/8AcVjMG2LTbpkjNoyq8RwysokqZunkjy3d5JDzxC6BJa">https://explorer.solana.com/address/8AcVjMG2LTbpkjNoyq8RwysokqZunkjy3d5JDzxC6BJa</a></li>
-<li>Example of a mainnet program: <a href="https://explorer.solana.com/address/4ckmDgGdxQoPDLUkDT3vHgSAkzA3QRdNq5ywwY4sUSJn">https://explorer.solana.com/address/4ckmDgGdxQoPDLUkDT3vHgSAkzA3QRdNq5ywwY4sUSJn</a></li>
-<li><a href="https://bonfida.com/">Bonfida</a>:
-<ul>
-<li>REST API to get data from Serum: <a href="https://bonfida.com/blog/articles/serum-api">https://bonfida.com/blog/articles/serum-api</a></li>
-<li><a href="https://github.com/dr497">Github</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/serum-community/pyserum">PySerum - GitHub</a>: Python client library for interacting with the Project Serum DEX.</li>
-</ul>
+	<h3 id="redirecting-to-awesome-serum-github-repository">Redirecting to Awesome Serum Github repository</h3>
+<div id="redirect">
+  <script>
+    window.location.href = "https://github.com/project-serum/awesome-serum";
+  </script>
+</div>
+
 
 
 
@@ -1065,19 +1014,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1603627252"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1603627252"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1603627252"></script>
-    <script src="../../js/jquery.sticky.js?1603627252"></script>
-    <script src="../../js/featherlight.min.js?1603627252"></script>
-    <script src="../../js/highlight.pack.js?1603627252"></script>
+    <script src="../../js/clipboard.min.js?1603627804"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1603627804"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1603627804"></script>
+    <script src="../../js/jquery.sticky.js?1603627804"></script>
+    <script src="../../js/featherlight.min.js?1603627804"></script>
+    <script src="../../js/highlight.pack.js?1603627804"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom-3.6.0.js?1603627252"></script>
-    <script src="../../js/learn.js?1603627252"></script>
-    <script src="../../js/hugo-learn.js?1603627252"></script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1603627804"></script>
+    <script src="../../js/learn.js?1603627804"></script>
+    <script src="../../js/hugo-learn.js?1603627804"></script>
 
-    <link href="../../mermaid/mermaid.css?1603627252" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.js?1603627252"></script>
+    <link href="../../mermaid/mermaid.css?1603627804" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1603627804"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
