@@ -21,6 +21,9 @@ Feel free to reach out to us if you are interested in any of these projects:
 See the list of awarded grants on Project Serum dedicated section: [https://projectserum.com/grants](https://projectserum.com/grants).
 
 {{% notice warning %}}
+There is no guarantee that you will receive a grant. Please contact [EcoSerum](https://t.me/ecoSerum) to know whether the project you are interested in is eligible for a grant.
+{{% /notice %}}
+{{% notice warning %}}
 Grants might or might not be available after the first implementation for future ones
 {{% /notice %}}
 
