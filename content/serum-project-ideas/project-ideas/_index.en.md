@@ -18,7 +18,11 @@ Feel free to reach out to us if you are interested in any of these projects:
 - Twitter: [@ProjectSerum](https://twitter.com/ProjectSerum)
 - Discord: [Project Serum](https://discord.com/invite/MxZFT4v)
 
-See the list of awarded grants on Project Serum dedicated section: [https://projectserum.com/grants](https://projectserum.com/grants)
+See the list of awarded grants on Project Serum dedicated section: [https://projectserum.com/grants](https://projectserum.com/grants).
+
+{{% notice warning %}}
+Grants might or might not be available after the first implementation for future ones
+{{% /notice %}}
 
 ### AMM Bots using Pools
 
