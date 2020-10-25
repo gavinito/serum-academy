@@ -6,6 +6,59 @@ weight: 3
 
 Below is a list of projects built on Serum and Solana:
 
+## Projects in Production
+
+Most of these projects are not open source. Use at your own risk.
+
+### Web GUIs
+
+- [Bonfida Serum DEX](https://bonfida.com/dex)
+  - [GUI](https://github.com/dr497/serum-dex-ui)
+- [Cryptocurrencies.Ai DEX](https://dex.cryptocurrencies.ai/)
+- [Serum Today](https://serum.today)
+- [Serum Pro](https://serumpro.org)
+- [Serum Folkvang.io](https://serum-mirror.folkvang.io/)
+- [Project Serum DEX](https://dex.projectserum.com)
+- [SerumStake DEX](https://dex.serumstakers.com)
+- [Tech.Ed Training](https://serum.techedtraining.com/)
+- [Santosha Exchange](https://exchange.santosha.digital)
+- [Pangea DEX](https://pangeadex.com/)
+- [SerumDex.Exchange](https://serumdex.exchange)
+- [SolFlare DEX](https://dex.solflare.com)
+- [Advance Finance DEX](https://advance.finance)
+- [Viralic DEX](https://dex.viralic.io)
+- [Illuminati Finance](http://illuminati.finance/serum)
+- [Ourord DEX](https://dex.ourord.com)
+- [BallsDeep DEX](https://serumdex.ballsdeep.me)
+- [TradeOnSerum DEX](https://www.tradeonserum.com/)
+- [YMAX DEX](https://ymax.finance/)
+
+### Mobile GUIs
+
+- [Coin98](https://coin98.app)
+
+#### NFT
+
+- [Solible](https://solible.com)
+
+### Web Wallets
+
+- [Sollet.io](https://sollet.io)
+  - [Github](https://github.com/project-serum/spl-token-wallet)
+- [Bonfida Wallet](https://bonfida.com/wallet)
+  - [Github](https://github.com/dr497/spl-token-wallet)
+- [Math Wallet](https://mathwallet.org)
+
+### Mobile Wallets
+
+- [Math Wallet](https://mathwallet.org)
+- [Coin98](https://coin98.app)
+
+### Yield Farms
+
+- [Cryptocurrencies.ai](https://dex.cryptocurrencies.ai/rewards)
+- [YMAX](https://ymax.finance/)
+
 ## Blockchain
 
 ### Solana
@@ -63,59 +116,6 @@ A technical introduction to the Serum DEX can be found [here](https://docs.googl
   - [REST API](https://bonfida.com/blog/articles/serum-api) to get Serum market data
   - [GUI](https://github.com/dr497/serum-dex-ui)
   - [Wallet](https://github.com/dr497/spl-token-wallet)
-
-## Projects in Production
-
-Most of these projects are not open source. Use at your own risk.
-
-### Web GUIs
-
-- [Bonfida Serum DEX](https://bonfida.com/dex)
-  - [GUI](https://github.com/dr497/serum-dex-ui)
-- [Cryptocurrencies.Ai DEX](https://dex.cryptocurrencies.ai/)
-- [Serum Today](https://serum.today)
-- [Serum Pro](https://serumpro.org)
-- [Serum Folkvang.io](https://serum-mirror.folkvang.io/)
-- [Project Serum DEX](https://dex.projectserum.com)
-- [SerumStake DEX](https://dex.serumstakers.com)
-- [Tech.Ed Training](https://serum.techedtraining.com/)
-- [Santosha Exchange](https://exchange.santosha.digital)
-- [Pangea DEX](https://pangeadex.com/)
-- [SerumDex.Exchange](https://serumdex.exchange)
-- [SolFlare DEX](https://dex.solflare.com)
-- [Advance Finance DEX](https://advance.finance)
-- [Viralic DEX](https://dex.viralic.io)
-- [Illuminati Finance](http://illuminati.finance/serum)
-- [Ourord DEX](https://dex.ourord.com)
-- [BallsDeep DEX](https://serumdex.ballsdeep.me)
-- [TradeOnSerum DEX](https://www.tradeonserum.com/)
-- [YMAX DEX](https://ymax.finance/)
-
-### Mobile GUIs
-
-- [Coin98](https://coin98.app)
-
-#### NFT
-
-- [Solible](https://solible.com)
-
-### Web Wallets
-
-- [Sollet.io](https://sollet.io)
-  - [Github](https://github.com/project-serum/spl-token-wallet)
-- [Bonfida Wallet](https://bonfida.com/wallet)
-  - [Github](https://github.com/dr497/spl-token-wallet)
-- [Math Wallet](https://mathwallet.org)
-
-### Mobile Wallets
-
-- [Math Wallet](https://mathwallet.org)
-- [Coin98](https://coin98.app)
-
-### Yield Farms
-
-- [Cryptocurrencies.ai](https://dex.cryptocurrencies.ai/rewards)
-- [YMAX](https://ymax.finance/)
 
 ## Popular Token Contracts
 
