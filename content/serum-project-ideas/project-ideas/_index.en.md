@@ -202,6 +202,12 @@ Security audits of the following repositories:
 - https://github.com/project-serum/serum-dex-ui
 - https://github.com/project-serum/serum-dex
 
+### App Store
+
+Create a Serum app store that would allow people to navigate to all common Serum apps from a single page. This way everyone would be exposed to everything from: Cryptocurrencies.ai, Bonfida, Coin98,various AMM apps, wallets etc...
+
+**Bounty**: 40k
+
 ### GUI Improvements
 
 Below is a list of GUI improvements that could be developed:
@@ -212,5 +218,11 @@ Below is a list of GUI improvements that could be developed:
 - A tool to validate GUIs against the source code
 - Build support for on-chain triggered orders (stop losses, take profits) into Serum.
 - Add Ledger support on Serum DEX UI
+- Auto-dropping a bit of SOL to get people started on Solana wallets
+- Wallet Address management: a system that would look like this
+  - A wants to send token X to B
+  - B says "my SOL address is S"
+  - A creates an account for X owned by S and then sends X to that account
+  - B then searches for all locations where they own X, finds that account, and adds it to the GUI
 
 See Project Serum [GitHub account](https://github.com/project-serum/) for the source of [Sollet.io](https://sollet.io) and the [DEX GUI](/en/dex-list)
