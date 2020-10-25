@@ -77,6 +77,7 @@ Most of these projects are not open source. Use at your own risk.
 
 ### Serum
 
+- [Awesome Serum](https://github.com/project-serum/awesome-serum)
 - [RFC for node/staking code](https://github.com/project-serum/rfcs/blob/master/text/0001-registry.md) - Work in progress
 - [SolFlare](https://projectserum.com/solflare.com), and a [guide](https://docs.solana.com/wallet-guide/ledger-live) on how to use a hardware Ledger with it.
 
