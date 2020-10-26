@@ -42,4 +42,6 @@ weight: 3
 
 - YMAX Finance DEX: [https://ymax.finance/](https://ymax.finance/)
 
+- SSDEX.XYZ DEX: [https://ssdex.xyz/](https://ssdex.xyz/)
+
 Serum DEX 的 GUI 原始码是公开的，并存放于 [GitHub](https://github.com/project-serum/serum-dex-ui)。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。

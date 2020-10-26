@@ -48,6 +48,8 @@ Below is a list of Serum DEXes:
 
 - YMAX Finance DEX: [https://ymax.finance/](https://ymax.finance/)
 
+- SSDEX.XYZ DEX: [https://ssdex.xyz/](https://ssdex.xyz/)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
