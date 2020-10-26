@@ -50,6 +50,8 @@ Below is a list of Serum DEXes:
 
 - SSDEX.XYZ DEX: [https://ssdex.xyz/](https://ssdex.xyz/)
 
+- ProjectSerumDex: [https://projectserumdex.com/#/](https://projectserumdex.com/#/) - This GUI is not affiliated to [Project Serum](https://projectserum.com)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
