@@ -33,21 +33,21 @@
     <title>Serum Swap :: Serum Academy</title>
 
     
-    <link href="../../css/nucleus.css?1603787876" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1603787876" rel="stylesheet">
-    <link href="../../css/hybrid.css?1603787876" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1603787876" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1603787876" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1603787876" rel="stylesheet">
-    <link href="../../css/atom-one-dark-reasonable.css?1603787876" rel="stylesheet">
-    <link href="../../css/theme.css?1603787876" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1603787876" rel="stylesheet">
+    <link href="../../css/nucleus.css?1603807399" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1603807399" rel="stylesheet">
+    <link href="../../css/hybrid.css?1603807399" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1603807399" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1603807399" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1603807399" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1603807399" rel="stylesheet">
+    <link href="../../css/theme.css?1603807399" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1603807399" rel="stylesheet">
     
-    <link href="../../css/theme-mine.css?1603787876" rel="stylesheet">
+    <link href="../../css/theme-mine.css?1603807399" rel="stylesheet">
     
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1603787876"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1603807399"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -76,14 +76,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1603787876"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1603787876"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1603807399"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1603807399"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1603787876"></script>
+<script type="text/javascript" src="../../js/search.js?1603807399"></script>
 
     
   </div>
@@ -603,6 +603,18 @@
                   
               
           
+              
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="zh" value="/zh/serum-swap/">Chinese</option>
+                    
+                  
+              
+          
         </select>
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
@@ -753,7 +765,7 @@
 <p>Start time: 2020-10-28 1am HKT</p>
 </li>
 <li>
-<p>End time: 2020-11-04 1am HKT</p>
+<p>End time: 2020-11-25 1am HKT</p>
 </li>
 <li>
 <p>Total airdrop: 1m SRM</p>
@@ -805,16 +817,11 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn start
 </code></pre></div><h3 id="collecting-fees">Collecting fees</h3>
 <p>Serum Swap allows you to collect fees for the orders made on your GUI. In order to collect the fees, you need to modify the <code>.env</code> file that looks like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Program Owner in this file needs to match program owner that is part of on-chain swap program</span>
-<span style="color:#75715e"># Applicable only to token-swap programs compiled with feature flag: (&#39;program-owner-fees&#39;)</span>
-SWAP_PROGRAM_OWNER_FEE_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
-
-<span style="color:#75715e"># HOST Public Key used for additional swap fees</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># HOST Public Key used for additional swap fees</span>
 SWAP_HOST_FEE_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
 
 <span style="color:#75715e"># Rewired variables to comply with CRA restrictions</span>
 REACT_APP_SWAP_HOST_FEE_ADDRESS<span style="color:#f92672">=</span>$SWAP_HOST_FEE_ADDRESS
-REACT_APP_SWAP_PROGRAM_OWNER_FEE_ADDRESS<span style="color:#f92672">=</span>$SWAP_PROGRAM_OWNER_FEE_ADDRESS
 </code></pre></div><p>To collect fees enter your address in the <code>.env</code> file.</p>
 <h3 id="setting-your-own-domain-name">Setting your own domain name</h3>
 <p>The <code>package.json</code> file contains a field called <code>homepage</code>, change it to your name domain.</p>
@@ -1168,19 +1175,19 @@ REACT_APP_SWAP_PROGRAM_OWNER_FEE_ADDRESS<span style="color:#f92672">=</span>$SWA
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1603787876"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1603787876"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1603787876"></script>
-    <script src="../../js/jquery.sticky.js?1603787876"></script>
-    <script src="../../js/featherlight.min.js?1603787876"></script>
-    <script src="../../js/highlight.pack.js?1603787876"></script>
+    <script src="../../js/clipboard.min.js?1603807399"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1603807399"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1603807399"></script>
+    <script src="../../js/jquery.sticky.js?1603807399"></script>
+    <script src="../../js/featherlight.min.js?1603807399"></script>
+    <script src="../../js/highlight.pack.js?1603807399"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom-3.6.0.js?1603787876"></script>
-    <script src="../../js/learn.js?1603787876"></script>
-    <script src="../../js/hugo-learn.js?1603787876"></script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1603807399"></script>
+    <script src="../../js/learn.js?1603807399"></script>
+    <script src="../../js/hugo-learn.js?1603807399"></script>
 
-    <link href="../../mermaid/mermaid.css?1603787876" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.js?1603787876"></script>
+    <link href="../../mermaid/mermaid.css?1603807399" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1603807399"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

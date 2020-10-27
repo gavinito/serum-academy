@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/zh/serum-swap/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/serum-swap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/serum-swap/"
+                />
+  </url>
+  
+  <url>
     <loc>/zh/serum-project-ideas/serum-ecosystem/</loc>
     <xhtml:link
                 rel="alternate"

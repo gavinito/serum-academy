@@ -18,6 +18,16 @@
   
   <url>
     <loc>/en/serum-swap/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/serum-swap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/serum-swap/"
+                />
   </url>
   
   <url>
