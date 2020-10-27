@@ -30,7 +30,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
 
-    <title>DEX list :: Serum Academy</title>
+    <title>Serum Swap :: Serum Academy</title>
 
     
     <link href="../../css/nucleus.css?1603787421" rel="stylesheet">
@@ -57,7 +57,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/en/dex-list/">
+  <body class="" data-url="/en/serum-swap/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -102,8 +102,8 @@
   
     
     <li data-nav-id="/en/serum-swap/" title="Serum Swap" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="../../en/serum-swap/">
@@ -398,8 +398,8 @@
   
     
     <li data-nav-id="/en/dex-list/" title="DEX list" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="../../en/dex-list/">
@@ -596,22 +596,10 @@
                   
                     
                     
-                      <option id="en" value="/en/dex-list/" selected>English</option>
+                      <option id="en" value="/en/serum-swap/" selected>English</option>
                     
                   
               
-                  
-              
-          
-              
-              
-                  
-              
-                  
-                    
-                    
-                      <option id="zh" value="/zh/dex-list/">Chinese</option>
-                    
                   
               
           
@@ -667,7 +655,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/dr497/serum-academy/tree/master/content/dex-list/_index.en.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/dr497/serum-academy/tree/master/content/serum-swap/_index.en.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -694,7 +682,7 @@
             
           
           
-            <a href='../../en/'>Home</a> > DEX list
+            <a href='../../en/'>Home</a> > Serum Swap
           
         
           
@@ -707,13 +695,21 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#dex-list">DEX List</a>
+    <li><a href="#how-does-serum-swap-work">How does Serum Swap work?</a></li>
+    <li><a href="#is-there-yield">Is there yield?</a></li>
+    <li><a href="#what-are-the-fees">What are the fees?</a></li>
+    <li><a href="#how-do-you-host-a-serum-swap-gui">How do you host a Serum Swap GUI?</a>
       <ul>
-        <li><a href="#web">Web</a></li>
-        <li><a href="#mobile">Mobile</a></li>
+        <li><a href="#serum-swap-gui">Serum Swap GUI</a></li>
+        <li><a href="#collecting-fees">Collecting fees</a></li>
+        <li><a href="#setting-your-own-domain-name">Setting your own domain name</a></li>
+        <li><a href="#hosting">Hosting</a></li>
       </ul>
     </li>
-    <li><a href="#host-a-gui">Host a GUI</a></li>
+    <li><a href="#how-safe-is-this">How safe is this?</a></li>
+    <li><a href="#can-i-change-the-gui">Can I change the GUI?</a></li>
+    <li><a href="#is-the-amm-on-chain">Is the AMM on-chain?</a></li>
+    <li><a href="#is-this-the-only-serum-amm">Is this the only Serum AMM?</a></li>
   </ul>
 </nav>
     </div>
@@ -731,7 +727,7 @@
           
             <h1>
               
-              DEX list
+              Serum Swap
             </h1>
           
 
@@ -739,88 +735,118 @@
 
 
 
-	<h2 id="dex-list">DEX List</h2>
-<p>There are many teams who are hosting GUIs on Serum DEX markets; some have significantly customized the experience. Below is a list of options!</p>
-<h3 id="web">Web</h3>
-<ul>
-<li>
-<p>Bonfida Serum DEX: <a href="https://bonfida.com/dex">https://bonfida.com/dex</a></p>
-</li>
-<li>
-<p>Cryptocurrencies.Ai DEX: <a href="https://dex.cryptocurrencies.ai/">https://dex.cryptocurrencies.ai/</a></p>
-</li>
-<li>
-<p>Serum Today: <a href="https://serum.today">https://serum.today</a></p>
-</li>
-<li>
-<p>Serum Pro: <a href="https://serumpro.org">https://serumpro.org</a></p>
-</li>
-<li>
-<p>Serum Folkvang.io: <a href="https://serum-mirror.folkvang.io/">https://serum-mirror.folkvang.io</a></p>
-</li>
-<li>
-<p>Project Serum DEX: <a href="https://dex.projectserum.com">https://dex.projectserum.com</a></p>
-</li>
-<li>
-<p>SerumStake DEX: <a href="https://dex.serumstakers.com">https://dex.serumstakers.com</a></p>
-</li>
-<li>
-<p>Tech.Ed Training: <a href="https://serum.techedtraining.com/">https://serum.techedtraining.com/</a></p>
-</li>
-<li>
-<p>Santosha Exchange: <a href="https://exchange.santosha.digital">https://exchange.santosha.digital</a></p>
-</li>
-<li>
-<p>Pangea DEX <a href="https://pangeadex.com/">https://pangeadex.com/</a></p>
-</li>
-<li>
-<p>SerumDex.Exchange: <a href="https://serumdex.exchange">https://serumdex.exchange</a></p>
-</li>
-<li>
-<p>SolFlare DEX: <a href="https://dex.solflare.com">https://dex.solflare.com</a></p>
-</li>
-<li>
-<p>Advance Finance DEX: <a href="https://advance.finance">https://advance.finance</a></p>
-</li>
-<li>
-<p>Viralic DEX: <a href="https://dex.viralic.io">https://dex.viralic.io</a></p>
-</li>
-<li>
-<p>Illuminati Finance: <a href="http://illuminati.finance/serum">http://illuminati.finance/serum</a></p>
-</li>
-<li>
-<p>Ourord DEX: <a href="https://dex.ourord.com">https://dex.ourord.com</a></p>
-</li>
-<li>
-<p>BallsDeep DEX: <a href="https://serumdex.ballsdeep.me">https://serumdex.ballsdeep.me</a></p>
-</li>
-<li>
-<p>TradeOnSerum DEX: <a href="https://www.tradeonserum.com/">https://www.tradeonserum.com/</a></p>
-</li>
-<li>
-<p>YMAX Finance DEX: <a href="https://ymax.finance/">https://ymax.finance/</a></p>
-</li>
-<li>
-<p>SSDEX.XYZ DEX: <a href="https://ssdex.xyz/">https://ssdex.xyz/</a></p>
-</li>
-<li>
-<p>ProjectSerumDex: <a href="https://projectserumdex.com/#/">https://projectserumdex.com/#/</a> - This GUI is not affiliated to <a href="https://projectserum.com">Project Serum</a></p>
-</li>
-</ul>
-<h3 id="mobile">Mobile</h3>
-<ul>
-<li>Coin98: <a href="https://coin98.app">https://coin98.app</a></li>
-</ul>
-<h2 id="host-a-gui">Host a GUI</h2>
-<p>Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!</p>
-<ul>
-<li>An open source GUI can be found here: <a href="https://github.com/project-serum/serum-dex-ui">https://github.com/project-serum/serum-dex-ui</a></li>
-<li>Find more about staking and voting here: <a href="https://projectserum.com/staking-voting">https://projectserum.com/staking-voting</a></li>
-</ul>
+	<p><a href="https://swap.projectserum.com/#/">Serum Swap</a> is a new AMM on Serum! You can find the source code on <a href="https://github.com/project-serum/oyster-swap">Github</a>.</p>
 
-<div class="notices warning" ><p>None of the DEXes mentioned above are vetted by Project Serum or Serum Academy. Use at your own risk.</p>
+<div class="notices tip" ><p>Try it now at: <a href="https://swap.projectserum.com">https://swap.projectserum.com</a></p>
 </div>
 
+<h2 id="how-does-serum-swap-work">How does Serum Swap work?</h2>
+<p>Like typical AMMs, you can join the pools and trade against them. The curve is the standard <strong>x*y=k curve</strong>.</p>
+<p>Solana based AMMs are fast! Serum Swap takes about <strong>1 second to settle</strong> a trade or pool addition/removal, and gas fees are tiny: roughly <strong>$0.00002</strong> per trade.</p>
+<p><img src="../../images/articles/serum-swap/swap-form.png?classes=shadow&amp;width=30pc" alt="serum-swap"></p>
+<h2 id="is-there-yield">Is there yield?</h2>
+<p>Yes! Anyone can add yield to any pools.</p>
+<p>But in addition: there will be <strong>1,000,000 SRM tokens dropped</strong> as yield over the next month!</p>
+<p><strong>In particular:</strong></p>
+<ul>
+<li>
+<p>Start time: 2020-10-28 1am HKT</p>
+</li>
+<li>
+<p>End time: 2020-11-04 1am HKT</p>
+</li>
+<li>
+<p>Total airdrop: 1m SRM</p>
+</li>
+<li>
+<p>Time: 20 random times, 50k SRM each time</p>
+</li>
+<li>
+<p>Location: 5k SRM each to the following pools:</p>
+<ul>
+<li>SRM/BTC</li>
+<li>SRM/ETH</li>
+<li>SRM/USDT</li>
+<li>SRM/USDC</li>
+<li>SRM/SOL</li>
+<li>SRM/YFI</li>
+<li>SRM/LINK</li>
+<li>SRM/SUSHI</li>
+<li>SRM/FTT</li>
+<li>SRM/FRONT</li>
+</ul>
+</li>
+</ul>
+
+<div class="notices tip" ><p>Method: SRM will be added directly to the contents of the AMM pool, effectively split between all LP token holders</p>
+</div>
+
+
+<div class="notices tip" ><p>Note: this is merely indicative and should there be any difficulties best efforts will be made to do what is reasonably in line with the intention.</p>
+</div>
+
+<h2 id="what-are-the-fees">What are the fees?</h2>
+<p>Takers are charged 0.30%. Of that:</p>
+<ul>
+<li>
+<p>0.25% goes to the liquidity providers (LPs).</p>
+</li>
+<li>
+<p>0.04% goes to a SRM buy/burn.</p>
+</li>
+<li>
+<p>0.01% goes to the GUI hoster; you can set this in the gui source code.</p>
+</li>
+</ul>
+<h2 id="how-do-you-host-a-serum-swap-gui">How do you host a Serum Swap GUI?</h2>
+<h3 id="serum-swap-gui">Serum Swap GUI</h3>
+<p>You will find the official repository of Serum Swap UI here: <a href="https://github.com/project-serum/oyster-swap">https://github.com/project-serum/oyster-swap</a>. This provides you with everything you need to start your own Serum Swap GUI.</p>
+<p>Once you have forked the repository, you can run a local environment by running:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn start
+</code></pre></div><h3 id="collecting-fees">Collecting fees</h3>
+<p>Serum Swap allows you to collect fees for the orders made on your GUI. In order to collect the fees, you need to modify the <code>.env</code> file that looks like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Program Owner in this file needs to match program owner that is part of on-chain swap program</span>
+<span style="color:#75715e"># Applicable only to token-swap programs compiled with feature flag: (&#39;program-owner-fees&#39;)</span>
+SWAP_PROGRAM_OWNER_FEE_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
+
+<span style="color:#75715e"># HOST Public Key used for additional swap fees</span>
+SWAP_HOST_FEE_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
+
+<span style="color:#75715e"># Rewired variables to comply with CRA restrictions</span>
+REACT_APP_SWAP_HOST_FEE_ADDRESS<span style="color:#f92672">=</span>$SWAP_HOST_FEE_ADDRESS
+REACT_APP_SWAP_PROGRAM_OWNER_FEE_ADDRESS<span style="color:#f92672">=</span>$SWAP_PROGRAM_OWNER_FEE_ADDRESS
+</code></pre></div><p>To collect fees enter your address in the <code>.env</code> file.</p>
+<h3 id="setting-your-own-domain-name">Setting your own domain name</h3>
+<p>The <code>package.json</code> file contains a field called <code>homepage</code>, change it to your name domain.</p>
+<h3 id="hosting">Hosting</h3>
+<p>There are different solutions to host your GUI. You can host it for free on Github Pages or host it on your own server.</p>
+<h4 id="github-pages">Github Pages</h4>
+<p>This is the easiest way of hosting and deploying a GUI, you simply have to use the following command to deploy your GUI</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn deploy
+</code></pre></div><p>The GUI will then be hosted on the <code>gh-pages</code> branch of your Github repository.</p>
+<h4 id="hosting-on-your-own-server">Hosting on your own server</h4>
+<p>Alternatively, you can host your GUI on your own server and use Nginx for instance to serve it. To create the production build run</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn build
+</code></pre></div><p>The build will be created in the <code>build</code> folder of the working directory.</p>
+<h2 id="how-safe-is-this">How safe is this?</h2>
+<p>While it has been tested, it has not been audited. Use at your own risk.</p>
+<p>Furthermore, the GUI you use might not always give clear reasons for error messages. When in doubt, check your max slippage.</p>
+
+<div class="notices warning" ><p>Serum Swap has not been audited. Use at your own risk.</p>
+</div>
+
+<h2 id="can-i-change-the-gui">Can I change the GUI?</h2>
+<p>Of course! That’s the whole point of DeFi: use this as a building block, compose with it, alter it, host it.</p>
+<p>See what <a href="http://bonfida.com/dex">Bonfida</a> and <a href="http://dex.cryptocurrencies.ai">CCAI</a> have done with Serum DEXes!</p>
+
+<div class="notices tip" ><p>The Serum Swap UI uses <a href="https://reactjs.org">React</a> and <a href="https://ant.design">Ant Desing</a> UI library. To learn how to customize it, refer to their <a href="https://ant.design/docs/react/customize-theme">official guide</a></p>
+</div>
+
+<h2 id="is-the-amm-on-chain">Is the AMM on-chain?</h2>
+<p>Yes! This AMM if fully <strong>on-chain and noncustodial</strong>.</p>
+<p>Right now you can connect to it using Solana wallets such as <a href="https://sollet.io">Sollet.io</a> or <a href="https://solflare.com">SolFlare</a>.</p>
+<h2 id="is-this-the-only-serum-amm">Is this the only Serum AMM?</h2>
+<p>No! Already there’s an <a href="https://gitlab.com/OpinionatedGeek/samm">off-chain AMM</a>, but more &ndash; including <a href="https://docs.google.com/document/d/1lmMZRKkxMFOtGOEZOFEKYL7syqv-4QT87F0o55fc35Y/edit">Pools</a> &ndash; are coming soon.</p>
 
 
 
@@ -861,8 +887,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -880,6 +904,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -889,22 +916,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -954,40 +965,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
             
             
@@ -1017,6 +994,21 @@
 
                     
                     
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                     
 
                     
@@ -1028,6 +1020,24 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1045,8 +1055,21 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
-                        
+            
+            
+                
                     
                 
                 
@@ -1132,10 +1155,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="../../en/built-on-serum/" title="Built on Serum"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="../../en/" title="Home"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="../../en/getting-involved/" title="Getting involved" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="../../en/serum-dex/" title="Trade on Serum DEX" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

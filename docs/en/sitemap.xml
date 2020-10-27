@@ -17,6 +17,10 @@
   </url>
   
   <url>
+    <loc>/en/serum-swap/</loc>
+  </url>
+  
+  <url>
     <loc>/en/serum-dex/sol-wallet/</loc>
     <xhtml:link
                 rel="alternate"
