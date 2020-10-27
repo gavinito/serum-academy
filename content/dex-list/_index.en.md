@@ -6,7 +6,7 @@ weight: 3
 
 ## DEX List
 
-Below is a list of Serum DEXes:
+There are many teams who are hosting GUIs on Serum DEX markets; some have significantly customized the experience. Below is a list of options!
 
 ### Web
 
