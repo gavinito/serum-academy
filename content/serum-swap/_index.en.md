@@ -27,7 +27,7 @@ But in addition: there will be **1,000,000 SRM tokens dropped** as yield over th
 **In particular:**
 
 - Start time: 2020-10-28 1am HKT
-- End time: 2020-11-04 1am HKT
+- End time: 2020-11-25 1am HKT
 - Total airdrop: 1m SRM
 - Time: 20 random times, 50k SRM each time
 - Location: 5k SRM each to the following pools:
@@ -78,16 +78,11 @@ yarn start
 Serum Swap allows you to collect fees for the orders made on your GUI. In order to collect the fees, you need to modify the `.env` file that looks like this:
 
 ```bash
-# Program Owner in this file needs to match program owner that is part of on-chain swap program
-# Applicable only to token-swap programs compiled with feature flag: ('program-owner-fees')
-SWAP_PROGRAM_OWNER_FEE_ADDRESS=''
-
 # HOST Public Key used for additional swap fees
 SWAP_HOST_FEE_ADDRESS=''
 
 # Rewired variables to comply with CRA restrictions
 REACT_APP_SWAP_HOST_FEE_ADDRESS=$SWAP_HOST_FEE_ADDRESS
-REACT_APP_SWAP_PROGRAM_OWNER_FEE_ADDRESS=$SWAP_PROGRAM_OWNER_FEE_ADDRESS
 ```
 
 To collect fees enter your address in the `.env` file.
