@@ -4,33 +4,33 @@ title: Serum Swap
 weight: 1
 ---
 
-[Serum Swap](https://swap.projectserum.com/#/) is a new AMM on Serum! You can find the source code on [Github](https://github.com/project-serum/oyster-swap).
+[Serum Swap](https://swap.projectserum.com/#/) 是Serum上首个AMM！ 用户可以点击 [Github](https://github.com/project-serum/oyster-swap)查看AMM的源代码。
 
 {{% notice tip %}}
-Try it now at: [https://swap.projectserum.com](https://swap.projectserum.com)
+点击网址即刻体验Serum Swap: [https://swap.projectserum.com](https://swap.projectserum.com)
 {{% /notice %}}
 
-## How does Serum Swap work?
+## Serum Swap运作规则简介：
 
-Like typical AMMs, you can join the pools and trade against them. The curve is the standard **x\*y=k curve**.
+Serum Swap的操作原理类似于常见的AMM，用户可以加入资产池进行交易。Serum Swap AMM用的是标准的**x*y=k型曲线**。
 
-Solana based AMMs are fast! Serum Swap takes about **1 second to settle** a trade or pool addition/removal, and gas fees are tiny: roughly **\$0.00002** per trade.
+搭建在Solana链上的AMM Serum Swap速度惊人！Serum Swap处理每笔交易、资产池添加或移除，都只需**1秒**左右！此外，还有超低的Gas费，每笔交易仅需约**\$0.00002美金**。
 
 ![serum-swap](/images/articles/serum-swap/swap-form.png?classes=shadow&width=30pc)
 
-## Is there yield?
+## Serum Swap可以流动性挖矿吗？
 
-Yes! Anyone can add yield to any pools.
+当然可以！用户可以自由选择给任意资产池提供流动性并挖矿。
 
-But in addition: there will be **1,000,000 SRM tokens dropped** as yield over the next month!
+划重点：下个月会**空投1,000,000枚SRM通证**，作为流动性供应奖励!
 
-**In particular:**
+**SRM流动性供应奖励细节：**
 
-- Start time: 2020-10-28 1am HKT
-- End time: 2020-11-04 1am HKT
-- Total airdrop: 1m SRM
-- Time: 20 random times, 50k SRM each time
-- Location: 5k SRM each to the following pools:
+- 开始时间：香港时间2020年10月28日凌晨1点
+- 结束时间：香港时间2020年11月4日凌晨1点
+- 空投总量：1,000,00个SRM
+- 空投方式: 随机挑选20个时间点空投，每次空投5万枚SRM。
+- 空投资产池：每次空投，以下罗列的10个资产池，每个资产池会分别收到5,000个SRM空投：
 
   - SRM/BTC
   - SRM/ETH
@@ -44,38 +44,40 @@ But in addition: there will be **1,000,000 SRM tokens dropped** as yield over th
   - SRM/FRONT
 
 {{% notice tip %}}
-Method: SRM will be added directly to the contents of the AMM pool, effectively split between all LP token holders
+空投获取方法: 空投的SRM会直接进入自动化流动性供应池（AMM Pool），然后分给所有持有LP通证的用户。
 {{% /notice %}}
 
 {{% notice tip %}}
-Note: this is merely indicative and should there be any difficulties best efforts will be made to do what is reasonably in line with the intention.
+注意：上述均为指示性计划，如果实际执行中有任何挑战，我们会不惜一切努力，维持原计划的初衷。
 {{% /notice %}}
 
-## What are the fees?
+## Serum Swap的手续费
 
-Takers are charged 0.30%. Of that:
+吃单手续费率是0.3%，其中：
 
-- 0.25% goes to the liquidity providers (LPs).
+- 0.25% 会给到流动性提供方（LPs）;
 
-- 0.04% goes to a SRM buy/burn.
+- 0.04%会用于SRM的回购与销毁；
 
-- 0.01% goes to the GUI hoster; you can set this in the gui source code.
+- 0.01%会给到前端网页的Hoster（这一数值可以在网页的源代码中设定）。
 
-## How do you host a Serum Swap GUI?
+吃单手续费率： 0.25%+0.04%+0.01%=0.03% 
 
-### Serum Swap GUI
+## 如何创建自己的Serum Swap前端网页？
 
-You will find the official repository of Serum Swap UI here: [https://github.com/project-serum/oyster-swap](https://github.com/project-serum/oyster-swap). This provides you with everything you need to start your own Serum Swap GUI.
+### Serum Swap 前端网页开源代码
 
-Once you have forked the repository, you can run a local environment by running:
+你可以点击下方链接查看Serum Swap前端的开源代码: [https://github.com/project-serum/oyster-swap](https://github.com/project-serum/oyster-swap). 这里面包含了搭建一个Serum Swap前端网页所需要的所有资源。
+
+利用这个开源代码存储库，您可以在本地环境运行创建的前端网页，通过执行下方指令：
 
 ```bash
 yarn start
 ```
 
-### Collecting fees
+### 手续费收取
 
-Serum Swap allows you to collect fees for the orders made on your GUI. In order to collect the fees, you need to modify the `.env` file that looks like this:
+用户如果在您创建的Serum Swap前端网页下单，进行了交易，您将能获取部分那些订单产生的手续费。为了获取这些手续费，您需要参考下方示例，修改一下`.env`这个文档：
 
 ```bash
 # Program Owner in this file needs to match program owner that is part of on-chain swap program
@@ -90,62 +92,64 @@ REACT_APP_SWAP_HOST_FEE_ADDRESS=$SWAP_HOST_FEE_ADDRESS
 REACT_APP_SWAP_PROGRAM_OWNER_FEE_ADDRESS=$SWAP_PROGRAM_OWNER_FEE_ADDRESS
 ```
 
-To collect fees enter your address in the `.env` file.
+为了获取这些手续费，请输在 `.env`文档中输入您的地址。
 
-### Setting your own domain name
+### 设置您自己的网站域名
 
-The `package.json` file contains a field called `homepage`, change it to your name domain.
+`package.json` 文档包含了一个叫`homepage`的字段，需要把它修改为您自己的域名。
 
 ### Hosting
 
-There are different solutions to host your GUI. You can host it for free on Github Pages or host it on your own server.
+ Host一个自己的Serum前端网页有很多种方案，您可以选择通过Github Pages免费host一个前端网页，又或者在自己的服务器上运行这个前端网页。
 
-#### Github Pages
+#### 将网页host在Github Pages上
 
-This is the easiest way of hosting and deploying a GUI, you simply have to use the following command to deploy your GUI
+是目前最简单的一种开发和host Serum前端网页的渠道。您可以使用并运行下述的指令，即可在Github Pages上开发出自己的Serum前端网页。
 
 ```bash
 yarn deploy
 ```
 
-The GUI will then be hosted on the `gh-pages` branch of your Github repository.
+运行上述指令之后，这个前端网页就会host在您Github程序库的`gh-pages` 分支下面。
 
-#### Hosting on your own server
+#### 将网页host在您自己的服务器上 
 
-Alternatively, you can host your GUI on your own server and use Nginx for instance to serve it. To create the production build run
+您也可以选择将Serum网页host在您自己的服务器上，例如使用Nginx去运行维护它。可以通过运行下述指令来创造生产构件（production build）：
 
 ```bash
 yarn build
 ```
 
-The build will be created in the `build` folder of the working directory.
+运行指令后，您可以在工作目录（working directory）下面的`build`文件夹中找到这一构件（build）。
 
-## How safe is this?
+## Serum Swap安全吗？
 
-While it has been tested, it has not been audited. Use at your own risk.
+产品虽已经经过测试，但尚未完成审计。所有使用和资金风险全部由使用人承担。
 
-Furthermore, the GUI you use might not always give clear reasons for error messages. When in doubt, check your max slippage.
+此外，您使用的网页端报错时，可能不会阐明报错原因。如果对此有任何疑惑，请谨慎评估个人可承受的最大滑点。
 
 {{% notice warning %}}
-Serum Swap has not been audited. Use at your own risk.
+Serum Swap 虽已经经过测试，但尚未完成审计。所有使用和资金风险全部由使用人承担。
 {{% /notice %}}
 
-## Can I change the GUI?
+## 我可以改动前端网页设置吗？
 
-Of course! That’s the whole point of DeFi: use this as a building block, compose with it, alter it, host it.
+当然可以！这就是去中心化的终极奥义：用户可以把Serum当做搭积木，可以对它进行任意组合，对其进行改动调整，甚至通过开源代码自己创建一个Serum Swap的前端网页。
 
-See what [Bonfida](http://bonfida.com/dex) and [CCAI](http://dex.cryptocurrencies.ai) have done with Serum DEXes!
+感兴趣的话，可以点击访问，参考[Bonfida](http://bonfida.com/dex)和 [CCAI](http://dex.cryptocurrencies.ai)搭建的Serum Dex前端网页！
 
 {{% notice tip %}}
-The Serum Swap UI uses [React](https://reactjs.org) and [Ant Desing](https://ant.design) UI library. To learn how to customize it, refer to their [official guide](https://ant.design/docs/react/customize-theme)
+Serum Swap的UI 使用 [React](https://reactjs.org) 和 [Ant Desing](https://ant.design) UI程序库。如果想要了解如何定制，请点击他们的[官网] (https://ant.design/docs/react/customize-theme)。
 {{% /notice %}}
 
-## Is the AMM on-chain?
+## Serum Swap的AMM是上链的吗？
 
-Yes! This AMM if fully **on-chain and noncustodial**.
+再一次：当然是的！Serum本身就是**完全上链并且脱离第三方托管的去中心化生态**！
 
-Right now you can connect to it using Solana wallets such as [Sollet.io](https://sollet.io) or [SolFlare](https://solflare.com).
+用户即刻就能使用Solana钱包[Sollet.io](https://sollet.io) 或者 [SolFlare](https://solflare.com)连接Serum Swap，开始交易！
 
-## Is this the only Serum AMM?
+## Serum Swap是Serum唯一的AMM吗？
 
-No! Already there’s an [off-chain AMM](https://gitlab.com/OpinionatedGeek/samm), but more -- including [Pools](https://docs.google.com/document/d/1lmMZRKkxMFOtGOEZOFEKYL7syqv-4QT87F0o55fc35Y/edit) -- are coming soon.
+其实之前已经有一个[没有上链的AMM](https://gitlab.com/OpinionatedGeek/samm)了。
+此外，请持续关注Serum，还有更多的惊喜，比如[资产池计划](https://docs.google.com/document/d/1lmMZRKkxMFOtGOEZOFEKYL7syqv-4QT87F0o55fc35Y/edit)即将上线！
+
