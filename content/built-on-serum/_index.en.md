@@ -37,6 +37,11 @@ Most of these projects are not open source. Use at your own risk.
 
 - [Coin98](https://coin98.app)
 
+### AMMs:
+
+- [Serum Swap](https://swap.projectserum.com/#)
+  - [Source code](https://github.com/project-serum/oyster-swap)
+
 #### NFT
 
 - [Solible](https://solible.com)
@@ -58,6 +63,8 @@ Most of these projects are not open source. Use at your own risk.
 
 - [Cryptocurrencies.ai](https://dex.cryptocurrencies.ai/rewards)
 - [YMAX](https://ymax.finance/)
+- [Serum Swap](https://swap.projectserum.com/#)
+  - [Source code](https://github.com/project-serum/oyster-swap)
 
 ## Blockchain
 
