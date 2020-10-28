@@ -125,6 +125,10 @@ Furthermore, the GUI you use might not always give clear reasons for error messa
 Serum Swap has not been audited. Use at your own risk.
 {{% /notice %}}
 
+{{% notice tip %}}
+Serum Swap has a 2mm SRM insurance fund
+{{% /notice %}}
+
 ## Can I change the GUI?
 
 Of course! That’s the whole point of DeFi: use this as a building block, compose with it, alter it, host it.
