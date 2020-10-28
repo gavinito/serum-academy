@@ -39,7 +39,7 @@ weight = 20
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-discord'></i> Project Serum Discord"
-url = "https://discord.gg/7Aepmm"
+url = "https://discord.gg/8UwqSaf"
 weight = 30
 
 [[Languages.en.menu.shortcuts]]
@@ -70,7 +70,7 @@ weight = 20
 
 [[Languages.zh.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-discord'></i> Project Serum Discord"
-url = "https://discord.gg/dvqejC"
+url = "https://discord.gg/8UwqSaf"
 weight = 30
 
 [[Languages.zh.menu.shortcuts]]

@@ -6,9 +6,9 @@ weight: 4
 
 ## EcoSerum
 
-### 关于EcoSerum
+### 关于 EcoSerum
 
-[EcoSerum](https://ecoserum.dev) 聚集了一群活跃投资者、交易员、开发者一同在Serum生态系统中建设。作为一家全新的去中心化交易所，Serum拥有充裕的流动性和高度可用性，同时有自己的社群作为后盾。我们的质押者是活跃的SRM持有人，他们一直支持发展更多改善用户体验的工具和应用的方式，来为Project Serum的成长而努力作出贡献。
+[EcoSerum](https://ecoserum.dev) 聚集了一群活跃投资者、交易员、开发者一同在 Serum 生态系统中建设。作为一家全新的去中心化交易所，Serum 拥有充裕的流动性和高度可用性，同时有自己的社群作为后盾。我们的质押者是活跃的 SRM 持有人，他们一直支持发展更多改善用户体验的工具和应用的方式，来为 Project Serum 的成长而努力作出贡献。
 
 ### 公共客户关系管理系统
 
@@ -20,15 +20,15 @@ weight: 4
 
 ### 社交媒体
 
-- [EcoSerum官网](https://www.ecoserum.dev/)
+- [EcoSerum 官网](https://www.ecoserum.dev/)
 
-- [EcoSerum Telegram群](https://t.me/ecoSerum)
+- [EcoSerum Telegram 群](https://t.me/ecoSerum)
 
-- [Project Serum Discord](https://discord.gg/njfYc2s)
+- [Project Serum Discord](https://discord.gg/8UwqSaf)
 
-## GUI代管
+## GUI 代管
 
-想要支持Serum生态系统的发展？您可以考虑代管GUI并赚取管理费用！
+想要支持 Serum 生态系统的发展？您可以考虑代管 GUI 并赚取管理费用！
 
-- 开放源码的GUI： [https://github.com/project-serum/serum-dex-ui](https://github.com/project-serum/serum-dex-ui)
+- 开放源码的 GUI： [https://github.com/project-serum/serum-dex-ui](https://github.com/project-serum/serum-dex-ui)
 - 了解更多关于质押和选票，请点击： [https://projectserum.com/staking-voting](https://projectserum.com/staking-voting)

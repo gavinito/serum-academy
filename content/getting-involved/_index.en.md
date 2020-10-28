@@ -32,7 +32,7 @@ All projects built on Serum can apply for a grant using the link above
 
 - [EcoSerum Telegram](https://t.me/ecoSerum)
 
-- [Project Serum Discord](https://discord.gg/njfYc2s)
+- [Project Serum Discord](https://discord.gg/8UwqSaf)
 
 - [Project Serum Telegram](https://t.me/ProjectSerum)
 

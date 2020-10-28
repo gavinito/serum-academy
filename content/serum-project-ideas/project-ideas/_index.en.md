@@ -16,7 +16,7 @@ Feel free to reach out to us if you are interested in any of these projects:
 - EcoSerum Telegram: [@ecoSerum](https://t.me/ecoSerum)
 - Email: [contact@projectserum.com](mailto:contact@projectserum.com)
 - Twitter: [@ProjectSerum](https://twitter.com/ProjectSerum)
-- Discord: [Project Serum](https://discord.com/invite/MxZFT4v)
+- Discord: [Project Serum](https://discord.gg/8UwqSaf)
 
 See the list of awarded grants on Project Serum dedicated section: [https://projectserum.com/grants](https://projectserum.com/grants).
 
