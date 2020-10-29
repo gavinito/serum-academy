@@ -4,7 +4,7 @@ title: DEX list
 weight: 3
 ---
 
-## DEX List
+## Serum DEX List
 
 There are many teams who are hosting GUIs on Serum DEX markets; some have significantly customized the experience. Below is a list of options!
 
@@ -55,6 +55,12 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
+
+## Serum Swap List
+
+### Web
+
+- Serum Swap Folkvang.io [https://serum-swap.folkvang.io/](https://serum-swap.folkvang.io/)
 
 ## Host a GUI
 

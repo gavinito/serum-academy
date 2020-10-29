@@ -12,6 +12,8 @@ Most of these projects are not open source. Use at your own risk.
 
 ### Web GUIs
 
+#### DEX GUIs
+
 - [Bonfida Serum DEX](https://bonfida.com/dex)
   - [GUI](https://github.com/dr497/serum-dex-ui)
 - [Cryptocurrencies.Ai DEX](https://dex.cryptocurrencies.ai/)
@@ -33,14 +35,15 @@ Most of these projects are not open source. Use at your own risk.
 - [TradeOnSerum DEX](https://www.tradeonserum.com/)
 - [YMAX DEX](https://ymax.finance/)
 
-### Mobile GUIs
+### Mobile DEX GUIs
 
 - [Coin98](https://coin98.app)
 
 ### AMMs:
 
-- [Serum Swap](https://swap.projectserum.com/#)
+- [Serum Swap](/en/serum-project-ideas/project-ideas/#amm-bots-using-pools)
   - [Source code](https://github.com/project-serum/oyster-swap)
+- [Folkvang Serum Swap GUI](https://serum-swap.folkvang.io/)
 
 #### NFT
 
