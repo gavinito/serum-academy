@@ -226,3 +226,25 @@ Below is a list of GUI improvements that could be developed:
   - B then searches for all locations where they own X, finds that account, and adds it to the GUI
 
 See Project Serum [GitHub account](https://github.com/project-serum/) for the source of [Sollet.io](https://sollet.io) and the [DEX GUI](/en/dex-list)
+
+### Other projects the Serum community is excited about
+
+- Other social networking applications
+- General yield farming
+- Hosting Solana validators and RPC servers for Serum usage
+- Serum app store, or other way to easily collect popular dapps on Solana
+  https://twitter.com/StaniKulechov/status/1322232473930137603
+- Add Serum DEX markets that use aTokens, cTokens, yTokens, etc.; make the UI intuitive; so that it’s like other Serum DEXes except open orders are interest bearing
+- Make the prices look like normal BTC/USDC prices etc.
+- Easy ways to go from e.g. aUSDT_SOL → aUSDT_ETH → USDT_ETH and aUSDT_SOL → USDT_SOL
+- Great info, GUI display, querying, external API, on-chain API, etc. of Serum data:
+  - Dex.projectserum.com
+  - Swap.projectserum.com
+  - SPL token transfers
+- Make explorer.solana.com great again
+  - When you go to an address and see a history of transactions, there should be a column for (approximate) time, not just block number
+  - If you go to a token mint address, token address, or transaction, you should see a (history of) all SOL and SPL token transfers associated with it
+  - Transaction parsing for serum dex and swap.projectserum.com
+  - “October 28, 2020 at 24:19:50 China Standard Time” should be 00:19:50 (e.g. https://explorer.solana.com/tx/sYdyGKLWqSEjZkSWMCf3o28giXWyx569FAHbeVc4XFuqgvJ52XQ6TvJMnwdGmM76aS2pkePcymqCPBPvmAZUKYe)
+  - Building an API into the explorer so you can easily query things like “total SRM sent to address X from time t1 to time t2” and things like that
+- Swerve: https://twitter.com/SwerveFinance/status/1320864824042008578
