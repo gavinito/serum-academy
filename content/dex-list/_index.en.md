@@ -50,6 +50,8 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 
 - SSDEX.XYZ DEX: [https://ssdex.xyz/](https://ssdex.xyz/)
 
+- CryptoStarkWolf DEX: [https://cryptostarkwolf.github.io/serum-dex-ui/](https://cryptostarkwolf.github.io/serum-dex-ui/)
+
 - ProjectSerumDex: [https://projectserumdex.com/#/](https://projectserumdex.com/#/) - This GUI is not affiliated to [Project Serum](https://projectserum.com)
 
 ### Mobile
