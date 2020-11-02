@@ -50,7 +50,7 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 
 - SSDEX.XYZ DEX: [https://ssdex.xyz/](https://ssdex.xyz/)
 
-- CryptoStarkWolf DEX: [https://cryptostarkwolf.github.io/serum-dex-ui/](https://cryptostarkwolf.github.io/serum-dex-ui/)
+- CryptoStarkWolf DEX: [https://serum-dex.cryptostarkwolf.com/](https://serum-dex.cryptostarkwolf.com/)
 
 - ProjectSerumDex: [https://projectserumdex.com/#/](https://projectserumdex.com/#/) - This GUI is not affiliated to [Project Serum](https://projectserum.com)
 
@@ -64,7 +64,7 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 
 - Serum Swap Folkvang.io [https://serum-swap.folkvang.io/](https://serum-swap.folkvang.io/)
 
-- CryptoStarkWolf Swap: [https://cryptostarkwolf.github.io/oyster-swap/](https://cryptostarkwolf.github.io/oyster-swap/)
+- CryptoStarkWolf Swap: [https://serum-swap.cryptostarkwolf.com/](https://serum-swap.cryptostarkwolf.com/)
 
 ## Host a GUI
 
