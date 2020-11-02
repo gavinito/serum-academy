@@ -64,6 +64,8 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 
 - Serum Swap Folkvang.io [https://serum-swap.folkvang.io/](https://serum-swap.folkvang.io/)
 
+- CryptoStarkWolf Swap: [https://cryptostarkwolf.github.io/oyster-swap/](https://cryptostarkwolf.github.io/oyster-swap/)
+
 ## Host a GUI
 
 Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!
