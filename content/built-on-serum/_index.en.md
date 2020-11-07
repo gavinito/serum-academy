@@ -113,6 +113,10 @@ A technical introduction to the Serum DEX can be found [here](https://docs.googl
   - [DEX Market](https://explorer.solana.com/address/8AcVjMG2LTbpkjNoyq8RwysokqZunkjy3d5JDzxC6BJa)
 - [PySerum](https://github.com/serum-community/pyserum): Python client library for interacting with the Project Serum DEX.
 
+## Minting Tokens
+
+- [SPL Token Creator UI](https://spl-token-ui.netlify.app/#/)
+
 ## Tutorials and Projects
 
 - [Serum Academy](https://serum-academy.com)
