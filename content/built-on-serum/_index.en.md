@@ -56,6 +56,10 @@ Most of these projects are not open source. Use at your own risk.
 - [Bonfida Wallet](https://bonfida.com/wallet)
   - [Github](https://github.com/dr497/spl-token-wallet)
 - [Math Wallet](https://mathwallet.org)
+- [Solong Wallet](<(http://solongwallet.com/)>)
+  - [Chrome Extension](https://chrome.google.com/webstore/detail/solong/memijejgibaodndkimcclfapfladdchj?hl=en-US)
+  - [Tutorial](https://solongwallet.medium.com/starting-with-solong-88a7a54524e5)
+  - [Integration Instruction](https://solongwallet.medium.com/using-solong-in-serum-swap-a01f8d075192)
 
 ### Mobile Wallets
 
