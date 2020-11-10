@@ -167,16 +167,6 @@ An on-chain oracle that takes prices from Serum markets, does sophisticated risk
 - Some way to charge people for querying it on-chain
 - A built-in way to use Serum orderbooks as an oracle
 
-### Token Minter Panel
-
-A token minter panel with the following specs:
-
-- Mint SPL tokens
-- Specify an address and market
-  - Funds there go to buy/burn that token on that market
-  - If the funds are that token they’re natively burnt
-- Options to be able to keep minting, or probably throw away the key to mint more
-
 ### SPL Name Service
 
 Create a table where the mint of a token can submit a name for their token. Also create a table where a token controls governance of the naming. If you create this, EcoSerum will support the token's adoption; you get 20% of them.
@@ -212,18 +202,8 @@ Create a Serum app store that would allow people to navigate to all common Serum
 
 Below is a list of GUI improvements that could be developed:
 
-- Button on [Sollet.io](https://sollet.io) to mint your own SPL token
-- Ledger support for [Sollet.io](https://sollet.io)
-- Volume and other metric trackers for Serum
 - A tool to validate GUIs against the source code
 - Build support for on-chain triggered orders (stop losses, take profits) into Serum.
-- Add Ledger support on Serum DEX UI
-- Auto-dropping a bit of SOL to get people started on Solana wallets
-- Wallet Address management: a system that would look like this
-  - A wants to send token X to B
-  - B says "my SOL address is S"
-  - A creates an account for X owned by S and then sends X to that account
-  - B then searches for all locations where they own X, finds that account, and adds it to the GUI
 
 See Project Serum [GitHub account](https://github.com/project-serum/) for the source of [Sollet.io](https://sollet.io) and the [DEX GUI](/en/dex-list)
 
