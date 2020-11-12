@@ -45,7 +45,7 @@ Most of these projects are not open source. Use at your own risk.
   - [Source code](https://github.com/project-serum/oyster-swap)
 - [Folkvang Serum Swap GUI](https://serum-swap.folkvang.io/)
 
-#### NFT
+### NFT
 
 - [Solible](https://solible.com)
 
@@ -56,10 +56,6 @@ Most of these projects are not open source. Use at your own risk.
 - [Bonfida Wallet](https://bonfida.com/wallet)
   - [Github](https://github.com/dr497/spl-token-wallet)
 - [Math Wallet](https://mathwallet.org)
-- [Solong Wallet](<(http://solongwallet.com/)>)
-  - [Chrome Extension](https://chrome.google.com/webstore/detail/solong/memijejgibaodndkimcclfapfladdchj?hl=en-US)
-  - [Tutorial](https://solongwallet.medium.com/starting-with-solong-88a7a54524e5)
-  - [Integration Instruction](https://solongwallet.medium.com/using-solong-in-serum-swap-a01f8d075192)
 
 ### Mobile Wallets
 
@@ -101,6 +97,17 @@ Most of these projects are not open source. Use at your own risk.
   - [Github](https://github.com/serum-foundation/spl-token-wallet)
   - [Sollet.io](https://sollet.io/), powered by the source above
 - [SOL Wallet Adapter](https://github.com/project-serum/sol-wallet-adapter), a library to allow Solana dApps to use third-party wallets to sign transactions.
+- [Math Wallet](https://mathwallet.org)
+- [Solflare](https://solflare.com)
+- [Coin98](https://coin98.app)
+
+## Wallet Extensions
+
+- [Coin98](https://twitter.com/coin98_wallet/status/1326712294571532289)
+- [Solong Wallet](<(http://solongwallet.com/)>)
+  - [Chrome Extension](https://chrome.google.com/webstore/detail/solong/memijejgibaodndkimcclfapfladdchj?hl=en-US)
+  - [Tutorial](https://solongwallet.medium.com/starting-with-solong-88a7a54524e5)
+  - [Integration Instruction](https://solongwallet.medium.com/using-solong-in-serum-swap-a01f8d075192)
 
 ## DEX Integration
 
@@ -120,6 +127,7 @@ A technical introduction to the Serum DEX can be found [here](https://docs.googl
 ## Minting Tokens
 
 - [SPL Token Creator UI](https://spl-token-ui.netlify.app/#/)
+- [Bonfida Minter](https://bonfida.com/mint)
 
 ## Tutorials and Projects
 

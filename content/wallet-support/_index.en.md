@@ -36,6 +36,7 @@ Website: [https://ftx.us](https://ftx.us)
 - SOL
 - SPL Tokens
 - Supports Serum trading
+- Chrome extension
 
 Website: [https://coin98.app](https://coin98.app)
 
