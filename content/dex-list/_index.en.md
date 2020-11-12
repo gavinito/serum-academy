@@ -68,6 +68,8 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 
 - CryptoStarkWolf Swap: [https://serum-swap.cryptostarkwolf.com/](https://serum-swap.cryptostarkwolf.com/)
 
+- SRMSwap(中文版): [https://srmswap.com/](https://srmswap.com/)
+
 ## Host a GUI
 
 Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!
