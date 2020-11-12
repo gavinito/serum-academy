@@ -37,6 +37,7 @@ Website: [https://ftx.us](https://ftx.us)
 - SPL Tokens
 - Supports Serum trading
 - Chrome extension
+- ERC20 <> SPL conversions
 
 Website: [https://coin98.app](https://coin98.app)
 
