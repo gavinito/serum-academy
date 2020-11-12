@@ -104,7 +104,7 @@ Most of these projects are not open source. Use at your own risk.
 ## Wallet Extensions
 
 - [Coin98](https://twitter.com/coin98_wallet/status/1326712294571532289)
-- [Solong Wallet](<(http://solongwallet.com/)>)
+- [Solong Wallet](http://solongwallet.com/)
   - [Chrome Extension](https://chrome.google.com/webstore/detail/solong/memijejgibaodndkimcclfapfladdchj?hl=en-US)
   - [Tutorial](https://solongwallet.medium.com/starting-with-solong-88a7a54524e5)
   - [Integration Instruction](https://solongwallet.medium.com/using-solong-in-serum-swap-a01f8d075192)
