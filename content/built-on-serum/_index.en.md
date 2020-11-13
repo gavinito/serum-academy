@@ -49,19 +49,6 @@ Most of these projects are not open source. Use at your own risk.
 
 - [Solible](https://solible.com)
 
-### Web Wallets
-
-- [Sollet.io](https://sollet.io)
-  - [Github](https://github.com/project-serum/spl-token-wallet)
-- [Bonfida Wallet](https://bonfida.com/wallet)
-  - [Github](https://github.com/dr497/spl-token-wallet)
-- [Math Wallet](https://mathwallet.org)
-
-### Mobile Wallets
-
-- [Math Wallet](https://mathwallet.org)
-- [Coin98](https://coin98.app)
-
 ### Yield Farms
 
 - [Cryptocurrencies.ai](https://dex.cryptocurrencies.ai/rewards)
@@ -84,6 +71,7 @@ Most of these projects are not open source. Use at your own risk.
   - [Github repository](https://github.com/certusone/wormhole)
   - [Medium article](https://medium.com/certus-one/introducing-the-wormhole-bridge-24911b7335f7)
 - [NFT example](https://spl.solana.com/token#example-create-a-non-fungible-token)
+- [Solana Go](https://github.com/dfuse-io/solana-go)
 
 ### Serum
 
@@ -93,15 +81,20 @@ Most of these projects are not open source. Use at your own risk.
 
 ## Wallets
 
-- SPL Token Wallet:
-  - [Github](https://github.com/serum-foundation/spl-token-wallet)
-  - [Sollet.io](https://sollet.io/), powered by the source above
-- [SOL Wallet Adapter](https://github.com/project-serum/sol-wallet-adapter), a library to allow Solana dApps to use third-party wallets to sign transactions.
-- [Math Wallet](https://mathwallet.org)
-- [Solflare](https://solflare.com)
-- [Coin98](https://coin98.app)
+### Web
 
-## Wallet Extensions
+- [Sollet.io](https://sollet.io/)
+  - [Sollet - Github](https://github.com/serum-foundation/spl-token-wallet)
+  - [SOL Wallet Adapter](https://github.com/project-serum/sol-wallet-adapter), a library to allow Solana dApps to use third-party wallets to sign transactions.
+- [Bonfida Wallet](https://bonfida.com/wallet)
+- [Solflare](https://solflare.com)
+
+### Mobile App
+
+- [Coin98](https://coin98.app)
+- [Math Wallet](https://mathwallet.org)
+
+### Browser Extensions
 
 - [Coin98](https://twitter.com/coin98_wallet/status/1326712294571532289)
 - [Solong Wallet](http://solongwallet.com/)

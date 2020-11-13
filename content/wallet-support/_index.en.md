@@ -37,6 +37,8 @@ Website: [https://ftx.us](https://ftx.us)
 - SPL Tokens
 - Supports Serum trading
 - Chrome extension
+- Mobile App
+- Browser extension
 - ERC20 <> SPL conversions
 
 Website: [https://coin98.app](https://coin98.app)
@@ -69,6 +71,7 @@ Website: [https://www.bonfida.com/wallet](https://www.bonfida.com/wallet)
 
 - SOL
 - SPL Tokens
+- Mobile App
 
 Website: [https://mathwallet.org](https://mathwallet.org)
 
@@ -78,3 +81,13 @@ Website: [https://mathwallet.org](https://mathwallet.org)
 - SPL Tokens
 
 Website: [https://solflare.com](https://solflare.com)
+
+### [Solong](http://solongwallet.com/)
+
+- SOL
+- SPL Tokens
+- Chrome extension
+- Supports Serum trading
+- Support SPL tokens swap
+
+Website: [https://solongwallet.com](https://solongwallet.com)
