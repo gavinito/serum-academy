@@ -26,6 +26,12 @@ There is no guarantee that you will receive a grant. Please contact [EcoSerum](h
 {{% notice warning %}}
 Grants might or might not be available after the first implementation for future ones
 {{% /notice %}}
+{{% notice tip %}}
+We recommend developers to use the same conventions as [Sollet.io](https://sollet.io) for seed phrase and private key.
+{{% /notice %}}
+{{% notice tip %}}
+We recommend developers to have by default both a mainnet and devnet/testnet version with a toggle so it can be tested out on both
+{{% /notice %}}
 
 ### AMM Bots using Pools
 
