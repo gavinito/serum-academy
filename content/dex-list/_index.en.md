@@ -56,6 +56,8 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 
 - In girum imus nocte et consumimur igni DEX : [https://ingirumimusnocteetconsumimurigni.io/#/](https://ingirumimusnocteetconsumimurigni.io/#/)
 
+- Abstract Machines: [https://dex.abstractmachines.ai/#/](https://dex.abstractmachines.ai/#/)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)
@@ -71,6 +73,8 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 - CryptoStarkWolf Swap: [https://serum-swap.cryptostarkwolf.com/](https://serum-swap.cryptostarkwolf.com/)
 
 - SRMSwap(中文版): [https://srmswap.com/](https://srmswap.com/)
+
+- Abstract Machines: [https://dex.abstractmachines.ai/swap/#/](https://dex.abstractmachines.ai/swap/#/)
 
 ## Host a GUI
 
