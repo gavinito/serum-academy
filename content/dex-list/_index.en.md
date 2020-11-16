@@ -54,6 +54,8 @@ There are many teams who are hosting GUIs on Serum DEX markets; some have signif
 
 - ProjectSerumDex: [https://projectserumdex.com/#/](https://projectserumdex.com/#/) - This GUI is not affiliated to [Project Serum](https://projectserum.com)
 
+- In girum imus nocte et consumimur igni DEX : [https://ingirumimusnocteetconsumimurigni.io/#/](https://ingirumimusnocteetconsumimurigni.io/#/)
+
 ### Mobile
 
 - Coin98: [https://coin98.app](https://coin98.app)

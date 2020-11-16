@@ -46,4 +46,6 @@ weight: 3
 
 - CryptoStarkWolf DEX: [https://serum-dex.cryptostarkwolf.com/](https://serum-dex.cryptostarkwolf.com/)
 
+- In girum imus nocte et consumimur igni DEX : [https://ingirumimusnocteetconsumimurigni.io/#/](https://ingirumimusnocteetconsumimurigni.io/#/)
+
 Serum DEX 的 GUI 原始码是公开的，并存放于 [GitHub](https://github.com/project-serum/serum-dex-ui)。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。
