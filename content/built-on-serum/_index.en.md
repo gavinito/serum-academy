@@ -119,7 +119,7 @@ A technical introduction to the Serum DEX can be found [here](https://docs.googl
 
 ## Minting Tokens
 
-- [SPL Token Creator UI](https://spl-token-ui.netlify.app/#/)
+- [SPL Token Creator UI](https://www.spl-token-ui.com/)
 - [Bonfida Minter](https://bonfida.com/mint)
 
 ## Tutorials and Projects
